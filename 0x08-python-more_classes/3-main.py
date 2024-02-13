@@ -13,3 +13,11 @@ my_rectangle.width = 10
 my_rectangle.height = 3
 print(my_rectangle)
 print(repr(my_rectangle))
+
+print("__")
+myrectangle = Rectangle(2,0)
+print(str(myrectangle))
+
+print("__")
+myrec = Rectangle(0, 0)
+print(str(myrec))
