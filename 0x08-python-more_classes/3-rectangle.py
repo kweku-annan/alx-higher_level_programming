@@ -30,7 +30,6 @@ class Rectangle:
     def __str__(self):
         return (f"{self.my_print()}")
 
-
     @property
     def width(self):
         return (self.__width)
