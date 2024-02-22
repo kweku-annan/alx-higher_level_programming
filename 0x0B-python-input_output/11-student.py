@@ -20,11 +20,7 @@ class Student:
 
     def to_json(self, attrs=None):
         if attrs is not None:
-            filtered_attr = {
-                attr: self.__dict__[attr]
-                for attr in attrs
-                if attr in self.__dict__
-                             }
+            filtered_attr = {attr: self.__dict__[attr] for attr in attrs}
             return (filtered_attr)
         else:
             return (self.__dict__)
