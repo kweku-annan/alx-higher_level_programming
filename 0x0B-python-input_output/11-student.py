@@ -24,3 +24,8 @@ class Student:
             return (filtered_attr)
         else:
             return (self.__dict__)
+
+    def reload_from_json(self, json):
+        for i in self.__dict__:
+            self.__dict__[i] = json[i]
+        return (self.__dict__)
