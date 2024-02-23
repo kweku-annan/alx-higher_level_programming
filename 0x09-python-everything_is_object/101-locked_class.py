@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""Contains a class that does not allow user to dynamically
+set attributes except when attribute name is 'first_name'
+"""
 
 
 class LockedClass:
