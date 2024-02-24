@@ -25,9 +25,11 @@ def append_after(filename="", search_string="", new_string=""):
     with open(filename, 'r', encoding='utf-8') as orig_file:
         lines = orig_file.readlines()
 
-    for index, line in enumerate(lines):
+    strings = ""
+    for line in lines:
+        strings += line
         if search_string in line:
-            lines.insert(index + 1, new_string)
+            strings += new_string
 
     with open(filename, 'w', encoding='utf-8') as new_file:
-        new_file.writelines(lines)
+        new_file.write(strings)
