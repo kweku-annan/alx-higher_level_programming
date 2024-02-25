@@ -1,0 +1,70 @@
+=============================================
+	How to use add_integer(a, b)
+=============================================
+The function adds and returns the sum of two integers. It strickly accepts
+integers or floats. When floats are given, it type-casts it to integers.
+
+The function 'add_integer' takes from 1 to 2 positional arguments
+
+========================
+	Testing
+========================
+
+>>> add_integer = __import__('0-add_integer').add_integer
+
+:: Calling function without any arguments:
+
+>>> add_integer()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: add_integer() missing 1 required positional argument: 'a'
+
+
+:: Calling function with one argument (integer)
+
+>>> add_integer(4)
+102
+
+
+:: Calling function with float
+
+>>> add_integer(3.453, 3)
+6
+
+
+:: Calling function with strings arguments
+
+>>> add_integer('a', 'b')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+    raise TypeError("a must be an integer")
+TypeError: a must be an integer
+
+
+:: Calling function with one argument as None
+
+>>> add_integer(5, None)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+    raise TypeError("b must be an integer")
+TypeError: b must be an integer
+
+
+:: Calling function with three integers
+
+>>> add_integer(3, 4, 5)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: add_integer() takes from 1 to 2 positional arguments but 3 were given
+
+
+:: Calling function with two integers
+
+>>> add_integer(4, 5)
+9
+
+
+
+=========================================
+	End of Testing
+=========================================
