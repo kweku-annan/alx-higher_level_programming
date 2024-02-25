@@ -1,0 +1,138 @@
+=====================================================
+	How to use matrix_divided(matrix, div)
+=====================================================
+This function divides all elements in of a matix. i.e. list of lists.
+It returns a matrix of the results.
+
+It takes two positional arguments.
+
+========================================================
+			Test Cases
+========================================================
+
+>>> matrix_divided = __import__('2-matrix_divided').matrix_divided
+
+
+:: Calling function without any arguments:
+
+>>> matrix_divided()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: matrix_divided() missing 2 required positional arguments: 'matrix' and 'div'
+
+
+:: Calling function with 1 argument:
+
+>>> matrix_divided(0)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: matrix_divided() missing 1 required positional argument: 'div'
+
+
+:: Calling function with 1 argument but a matrix:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: matrix_divided() missing 1 required positional argument: 'div'
+
+
+:: Calling function with 3 arguments
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: matrix_divided() takes 2 positional arguments but 3 were given
+
+
+:: Calling function with a list
+
+>>> matrix_divided([4, 3, 2], 3)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+    raise TypeError("matrix must be a matrix (list of "
+TypeError: matrix must be a matrix (list of lists) of integers/floats
+
+
+:: Calling the function with a matrix with one item
+
+>>> matrix_divided([[4, 3, 2]], 3)
+[[1.33, 1.0, 0.67]]
+
+
+:: Calling the function with a matrix with unequal rows length
+
+>>> matrix_divided([[4, 3, 2], [3, 2]], 3)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+    raise TypeError("Each row of the matrix must have the same size")
+TypeError: Each row of the matrix must have the same size
+
+
+:: Calling the function with an empty matrix:
+
+>>> matrix_divided([[]], 3)
+[[]]
+
+
+:: Calling the function with an empty list:
+
+>>> matrix_divided([], 3)
+[]
+
+
+:: Calling function with some rows containing non number
+
+>>> matrix_divided([[3, 4, 5, 8], [8, 7, 'x', 2]], 3)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+    raise TypeError("matrix must be a matrix (list of lists) of "
+TypeError: matrix must be a matrix (list of lists) of integers/floats
+
+
+:: Calling function with div = 0:
+
+>>> matrix_divided([[3, 4, 5, 8], [8, 7, 6, 2]], 0)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+    raise ZeroDivisionError("division by zero")
+ZeroDivisionError: division by zero
+
+
+:: Calling function with div < 0
+
+>>> matrix_divided([[3, 4, 5, 8], [8, 7, 6, 2]], -1)
+[[-3.0, -4.0, -5.0, -8.0], [-8.0, -7.0, -6.0, -2.0]]
+
+
+:: Calling function with div as a string
+
+>>> matrix_divided([[3, 4, 5, 8], [8, 7, 6, 2]], "4")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+    raise TypeError("div must be a number")
+TypeError: div must be a number
+
+
+:: Calling function with div as huge number
+
+>>> matrix_divided([[3, 4, 5, 8], [8, 7, 6, 2]], int('inf'))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: 'inf'
+
+
+:: Calling function with div of infinite float
+
+>>> matrix_divided([[3, 4, 5, 8], [8, 7, 6, 2]], float('inf'))
+[[0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0]]
+
+
+:: Calling function with matrix as tuple
+
+>>> matrix_divided(([3, 4, 5, 8], [8, 7, 6, 2]), float('inf'))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+    raise TypeError("matrix must be a matrix (list of "
+TypeError: matrix must be a matrix (list of lists) of integers/floats
+
+
+:: 
