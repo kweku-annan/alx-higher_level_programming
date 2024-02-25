@@ -63,6 +63,38 @@ TypeError: add_integer() takes from 1 to 2 positional arguments but 3 were given
 >>> add_integer(4, 5)
 9
 
+:: Checking for infinite int like argument
+
+>>> add_integer(int('inf'))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: 'inf'
+
+
+:: when pass pass true and True like argument
+
+>>> add_integer(true, False)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'true' is not defined
+
+
+:: Checking for infinite float argument
+
+>>> add_integer(5, float('inf'))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+    b = int(b)
+OverflowError: cannot convert float infinity to integer
+
+
+:: Checking for float NaN conversion
+
+>>> add_integer(8, float('NaN'))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+    b = int(b)
+ValueError: cannot convert float NaN to integer
 
 
 =========================================
