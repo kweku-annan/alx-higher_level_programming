@@ -127,6 +127,10 @@ class Rectangle(Base):
                 elif key == "y":
                     self.y = value
 
+    def to_dictionary(self):
+        """Returns the dictionary represantation of an object"""
+        return vars(self)
+
     @staticmethod
     def attribute_validator(attr_name, value):
         if not isinstance(value, int):
