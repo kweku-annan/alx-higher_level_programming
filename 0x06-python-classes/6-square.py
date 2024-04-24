@@ -56,6 +56,7 @@ class Square(object):
             raise TypeError("position must be a tuple of 2 positive integers")
         if not all(isinstance(cord, int) and cord >= 0 for cord in value):
             raise TypeError("position must be a tuple of 2 positive integers")
+        self.__position = value
 
     def area(self) -> int:
         """ Returns the area(int) of the square"""
