@@ -15,6 +15,7 @@ def all_states(host, user, passwd, db_name, state_name):
     query = """SELECT *
         FROM states
         WHERE name = '{}'
+        COLLATE utf8mb4_0900_as_cs
         ORDER BY states.id ASC""".format(state_name)
     cur.execute(query)
     result = cur.fetchall()
