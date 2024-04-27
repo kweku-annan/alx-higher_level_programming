@@ -14,6 +14,7 @@ def all_states(host, user, passwd, db_name):
     cur.execute("""
         SELECT * FROM states
         WHERE name LIKE 'N%'
+        COLLATE utf8mb4_0900_as_cs
         ORDER BY states.id ASC
     """)
     result = cur.fetchall()
