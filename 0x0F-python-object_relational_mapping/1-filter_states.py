@@ -11,9 +11,11 @@ ARGS = sys.argv[1:]
 def all_states(host, user, passwd, db_name):
     db = MySQLdb.connect(host=host, user=user, passwd=passwd, db=db_name)
     cur = db.cursor()
-    cur.execute(
-        "SELECT * FROM states WHERE name LIKE 'N%' ORDER BY states.id ASC"
-    )
+    cur.execute("""
+        SELECT * FROM states
+        WHERE name LIKE 'N%'
+        ORDER BY states.id ASC
+    """)
     result = cur.fetchall()
     return (result)
 
