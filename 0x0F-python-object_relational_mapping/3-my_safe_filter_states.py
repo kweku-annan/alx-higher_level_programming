@@ -12,11 +12,6 @@ ARGS = sys.argv[1:]
 def all_states(host, user, passwd, db_name, state_name):
     db = MySQLdb.connect(host=host, user=user, passwd=passwd, db=db_name)
     cur = db.cursor()
-    query = """SELECT *
-        FROM states
-        WHERE name = '{}'
-        COLLATE utf8mb4_0900_as_cs
-        ORDER BY states.id ASC""".format(state_name)
     cur.execute("""
         SELECT *
         FROM states
