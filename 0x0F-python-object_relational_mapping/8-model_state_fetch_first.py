@@ -27,7 +27,7 @@ if __name__ == "__main__":
     session = Session()
 
     if (session.query(State).count() == 0):
-        print()
+        print("Nothing")
     else:
         result = session.query(State).order_by(State.id).first()
         if result is None:
