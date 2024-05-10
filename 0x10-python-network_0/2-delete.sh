@@ -1,3 +1,3 @@
 #!/bin/bash
 # DELETE request
-curl -sXi "$1"
+curl -sXi DELETE "$1"
