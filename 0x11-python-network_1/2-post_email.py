@@ -8,9 +8,7 @@ if __name__ == "__main__":
     url = sys.argv[1]
     email = sys.argv[2]
     email_data = {
-        'to': email,
-        'subject': 'Hello!',
-        'body': 'Test email'
+        'to': email
         }
     data = urllib.parse.urlencode(email_data)
     data = data.encode('ascii')
