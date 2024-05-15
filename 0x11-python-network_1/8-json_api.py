@@ -10,8 +10,8 @@ if __name__ == "__main__":
     else:
         q = sys.argv[1]
 
-    params = {'q': q}
-    response = requests.post(url, params=params)
+    data = {'q': q}
+    response = requests.post(url, data=data)
 
     try:
         json_data = response.json()
