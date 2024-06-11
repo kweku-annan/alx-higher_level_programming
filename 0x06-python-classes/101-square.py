@@ -23,7 +23,7 @@ class Square(object):
         """
         self.__size = size
         self.__position = position
-        self.printed = self.my_print()
+        self.printed = self.my_print
         if type(size) is not int:
             raise TypeError("size must be an integer")
         if size < 0:
@@ -62,7 +62,7 @@ class Square(object):
         """
         Enable print a square instance to have the same behavior as my_print
         """
-        return (f"{self.printed}")
+        return (f"{self.my_print()}")
 
     def area(self) -> int:
         """ Returns the area(int) of the square"""
@@ -72,7 +72,7 @@ class Square(object):
     def my_print(self):
         """Prints in the stdout the square with the character #"""
         if self.__size == 0:
-            print("")
+            print()
         else:
             ar = self.__size
             i = 0
@@ -85,3 +85,4 @@ class Square(object):
                     print("#", end="")
                 print()
                 i += 1
+        return ("\n")
