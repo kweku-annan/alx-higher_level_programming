@@ -21,9 +21,6 @@ class Square(object):
             position (tuple)
 
         """
-        self.__size = size
-        self.__position = position
-        self.printed = self.my_print
         if type(size) is not int:
             raise TypeError("size must be an integer")
         if size < 0:
@@ -32,6 +29,10 @@ class Square(object):
             raise TypeError("position must be a tuple of 2 positive integers")
         if not all(isinstance(cord, int) and cord >= 0 for cord in position):
             raise TypeError("position must be a tuple of 2 positive integers")
+
+        self.__size = size
+        self.__position = position
+        self.printed = self.my_print
 
     @property
     def size(self):
@@ -53,7 +54,7 @@ class Square(object):
 
     @position.setter
     def position(self, value=(0, 0)):
-        if not isinstance(value, tuple) or len(position) != 2:
+        if not isinstance(value, tuple) or len(value) != 2:
             raise TypeError("position must be a tuple of 2 positive integers")
         if not all(isinstance(cord, int) and cord >= 0 for cord in value):
             raise TypeError("position must be a tuple of 2 positive integers")
@@ -72,17 +73,14 @@ class Square(object):
     def my_print(self):
         """Prints in the stdout the square with the character #"""
         if self.__size == 0:
-            print()
+            return ('\n')
         else:
+            lines = []
             ar = self.__size
             i = 0
             x_cord = self.__position[0]
-            [print("") for i in range(self.__position[1])]
+            lines.extend(["" for i in range(self.__position[1])])
             while i < ar:
-                for cord in range(x_cord):
-                    print(" ", end="")
-                for j in range(ar):
-                    print("#", end="")
-                print()
+                lines.append(" " * x_cord + "#" * ar)
                 i += 1
-        return ("\n")
+        return "\n".join(lines)
