@@ -1,0 +1,58 @@
+======================================================
+    How to use say_my_name(first_name, last_name="")
+======================================================
+This function prints: My name is <first name> <last name>
+
+It takes two arguments. One positional and one keyword.
+
+=======================================================
+                Test Cases
+=======================================================
+
+>>> say_my_name = __import__('3-say_my_name').say_my_name
+
+:: Calling function without any arguments:
+>>> say_my_name()
+Traceback (most recent call last):
+TypeError: say_my_name() missing 1 required positional argument: 'first_name'
+
+
+:: Calling the function with missing positional argument:
+>>> say_my_name(last_name="Saah")
+Traceback (most recent call last):
+TypeError: say_my_name() missing 1 required positional argument: 'first_name'
+
+
+:: Calling the function with a non-string first argument:
+>>> say_my_name(1, "Saah")
+Traceback (most recent call last):
+TypeError: first_name must be a string
+
+
+:: Calling the function with a non-string second argument:
+>>> say_my_name("Emma", 32)
+Traceback (most recent call last):
+TypeError: last_name must be a string
+
+
+:: Calling the function with more than two arguments:
+>>> say_my_name("Emma", "Adu", "Saah")
+Traceback (most recent call last):
+TypeError: say_my_name() takes from 1 to 2 positional arguments but 3 were given
+
+
+:: Calling the function with just one argument:
+>>> say_my_name("Emma")
+My name is Emma 
+
+:: Calling the function with two arguments:
+>>> say_my_name("Emma", "Saah")
+My name is Emma Saah
+
+
+:: Calling the function with try and except block:
+>>> try:
+...     say_my_name(12, "Saah")
+... except Exception as e:
+...     print(e)
+first_name must be a string
