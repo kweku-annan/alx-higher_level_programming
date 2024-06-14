@@ -1,0 +1,38 @@
+============================================
+      How to use print_square(size)
+============================================
+This function prints square using '#' based on
+the size.
+
+=============================================
+            Test Cases
+=============================================
+
+>>> print_square = __import__('4-print_square').print_square
+
+:: Calling the function without any arguments:
+>>> print_square()
+Traceback (most recent call last):
+TypeError: print_square() missing 1 required positional argument: 'size'
+
+
+:: Calling the function with a string:
+>>> print_square("Emma")
+Traceback (most recent call last):
+TypeError: size must be an integer
+
+
+:: Calling the function with a float:
+>>> print_square(4.3)
+####
+####
+####
+####
+
+:: Calling function with normal integer:
+>>> print_square(5)
+#####
+#####
+#####
+#####
+#####
