@@ -19,7 +19,7 @@ def text_indentation(text):
                     word_lst.insert(letter_idx + 1, '\n')
                     word_lst.insert(letter_idx + 1, '\n')
             new_char = ''.join(word_lst)
-            print(new_char, end="")
+            print(new_char.strip(), end="")
         else:
             if len(text.split(" ")) == i:
                 print(char, end="")
