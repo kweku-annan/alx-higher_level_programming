@@ -22,4 +22,4 @@ TypeError: text must be a string
 
 :: Calling the function with one word:
 >>> text_indentation('We')
-We >>>
+We
