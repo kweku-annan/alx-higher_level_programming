@@ -1,0 +1,25 @@
+========================================================
+        How to use text_indentation(text)
+========================================================
+The function prints a give text
+
+========================================================
+                Test Cases
+========================================================
+
+>>> text_indentation = __import__('5-text_indentation').text_indentation
+
+:: Calling the function without any arguments:
+>>> text_indentation()
+TypeError: text_indentation() missing 1 required positional argument: 'text'
+
+
+:: Calling the function with a non-string:
+>>> text_indentation(65)
+Traceback (most recent call last):
+TypeError: text must be a string
+
+
+:: Calling the function with one word:
+>>> text_indentation('We')
+We >>>
