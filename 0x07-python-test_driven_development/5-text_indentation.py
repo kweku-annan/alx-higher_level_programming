@@ -8,7 +8,8 @@ def text_indentation(text):
         raise TypeError("text must be a string")
 
     i = 0
-    for char in text.split(" "):
+    list_text = text.split(" ")
+    for char in list_text:
         i += 1
         punct_chars = ['.', ':', '?']
         if '.' in char or ':' in char or '?' in char:
@@ -17,9 +18,9 @@ def text_indentation(text):
                 if letter in punct_chars:
                     letter_idx = word_lst.index(letter)
                     word_lst.insert(letter_idx + 1, '\n')
-                    word_lst.insert(letter_idx + 1, '\n')
+                    #word_lst.insert(letter_idx + 1, '\n')
             new_char = ''.join(word_lst)
-            print(new_char.strip(" "), end="")
+            print(new_char)
         else:
             if len(text.split(" ")) == i:
                 print(char, end="")
