@@ -18,9 +18,12 @@ def text_indentation(text):
                 if letter in punct_chars:
                     letter_idx = word_lst.index(letter)
                     word_lst.insert(letter_idx + 1, '\n')
-                    #word_lst.insert(letter_idx + 1, '\n')
+                    word_lst.insert(letter_idx + 1, '\n')
             new_char = ''.join(word_lst)
-            print(new_char)
+            if i == len(list_text):
+                print(new_char)
+            else:
+                print(new_char, end="")
         else:
             if len(text.split(" ")) == i:
                 print(char, end="")
