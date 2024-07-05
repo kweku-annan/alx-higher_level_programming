@@ -6,7 +6,7 @@ const fs = require('fs');
 if (process.argv.length < 4) {
   console.log('Lesser number of arguments');
 } else {
-  console.log(args);
+  const args = process.argv.slice(2);
   const fileA = args[0];
   const fileB = args[1];
   const newFile = args[2];
