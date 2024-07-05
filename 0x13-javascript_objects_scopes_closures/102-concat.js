@@ -12,22 +12,21 @@ if (process.argv.length < 4) {
   const newFile = args[2];
 
   fs.readFile(fileA, 'utf8', (err, dataA) => {
-	if (err) {
-	  console.log(err);
-	  return;
-	}
-	fs.readFile(fileB, 'utf8', (err, dataB) => {
-	  if (err) {
-		console.log(err);
-		return;
-	  }
-	  const newData = dataA + dataB;
-	  fs.writeFile(newFile, newData, 'utf8', (err) => {
-		if (err) {
-		  console.log(err);
-		  return;
-		}
-	  });
-	});
+    if (err) {
+      console.log(err);
+      return;
+    }
+    fs.readFile(fileB, 'utf8', (err, dataB) => {
+      if (err) {
+        console.log(err);
+        return;
+      }
+      const newData = dataA + dataB;
+      fs.writeFile(newFile, newData, 'utf8', (err) => {
+        if (err) {
+          console.log(err);
+        }
+      });
+    });
   });
 }
