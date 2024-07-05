@@ -23,5 +23,4 @@ if __name__ == "__main__":
             json_item = data_json[i]
             sha = json_item['sha']
             author = json_item['commit']['author']['name']
-            date = json_item['commit']['author']['date']
-            print(f'{sha}: {author}\t\t{date}')
+            print(f'{sha}: {author}')
