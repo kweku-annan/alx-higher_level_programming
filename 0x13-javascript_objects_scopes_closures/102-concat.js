@@ -2,8 +2,7 @@
 // Concats 2 files
 
 const fs = require('fs');
-let dataA = '';
-let dataB = '';
+
 if (process.argv.length < 4) {
   console.log('Lesser number of arguments');
 } else {
