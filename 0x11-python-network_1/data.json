@@ -1,0 +1,2437 @@
+[
+    {
+        "sha": "0d30e84878223df68efda3b0e1741611d9682a45",
+        "node_id": "C_kwDNIULaACgwZDMwZTg0ODc4MjIzZGY2OGVmZGEzYjBlMTc0MTYxMWQ5NjgyYTQ1",
+        "commit": {
+            "author": {
+                "name": "Jean Boussier",
+                "email": "jean.boussier@gmail.com",
+                "date": "2024-07-05T09:52:59Z"
+            },
+            "committer": {
+                "name": "Jean Boussier",
+                "email": "jean.boussier@gmail.com",
+                "date": "2024-07-05T09:52:59Z"
+            },
+            "message": "Fix a typo",
+            "tree": {
+                "sha": "817d787a08886f0101136336df6e59fbfb1436d0",
+                "url": "https://api.github.com/repos/rails/rails/git/trees/817d787a08886f0101136336df6e59fbfb1436d0"
+            },
+            "url": "https://api.github.com/repos/rails/rails/git/commits/0d30e84878223df68efda3b0e1741611d9682a45",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/rails/rails/commits/0d30e84878223df68efda3b0e1741611d9682a45",
+        "html_url": "https://github.com/rails/rails/commit/0d30e84878223df68efda3b0e1741611d9682a45",
+        "comments_url": "https://api.github.com/repos/rails/rails/commits/0d30e84878223df68efda3b0e1741611d9682a45/comments",
+        "author": {
+            "login": "byroot",
+            "id": 44640,
+            "node_id": "MDQ6VXNlcjQ0NjQw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44640?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/byroot",
+            "html_url": "https://github.com/byroot",
+            "followers_url": "https://api.github.com/users/byroot/followers",
+            "following_url": "https://api.github.com/users/byroot/following{/other_user}",
+            "gists_url": "https://api.github.com/users/byroot/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/byroot/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/byroot/subscriptions",
+            "organizations_url": "https://api.github.com/users/byroot/orgs",
+            "repos_url": "https://api.github.com/users/byroot/repos",
+            "events_url": "https://api.github.com/users/byroot/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/byroot/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "byroot",
+            "id": 44640,
+            "node_id": "MDQ6VXNlcjQ0NjQw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44640?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/byroot",
+            "html_url": "https://github.com/byroot",
+            "followers_url": "https://api.github.com/users/byroot/followers",
+            "following_url": "https://api.github.com/users/byroot/following{/other_user}",
+            "gists_url": "https://api.github.com/users/byroot/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/byroot/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/byroot/subscriptions",
+            "organizations_url": "https://api.github.com/users/byroot/orgs",
+            "repos_url": "https://api.github.com/users/byroot/repos",
+            "events_url": "https://api.github.com/users/byroot/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/byroot/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "a9a93368a6845579379afc250adbbda84d035af7",
+                "url": "https://api.github.com/repos/rails/rails/commits/a9a93368a6845579379afc250adbbda84d035af7",
+                "html_url": "https://github.com/rails/rails/commit/a9a93368a6845579379afc250adbbda84d035af7"
+            }
+        ]
+    },
+    {
+        "sha": "a9a93368a6845579379afc250adbbda84d035af7",
+        "node_id": "C_kwDNIULaAChhOWE5MzM2OGE2ODQ1NTc5Mzc5YWZjMjUwYWRiYmRhODRkMDM1YWY3",
+        "commit": {
+            "author": {
+                "name": "Petrik de Heus",
+                "email": "petrik@deheus.net",
+                "date": "2024-07-05T09:34:08Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2024-07-05T09:34:08Z"
+            },
+            "message": "Merge pull request #52275 from kabirpathak/update-doc-for-number-helper-in-active-support\n\n[ci skip] Added usage documentation for ActiveSupport::NumberHelper.",
+            "tree": {
+                "sha": "4bd783299b21950f302da982115910baf7e4fb2a",
+                "url": "https://api.github.com/repos/rails/rails/git/trees/4bd783299b21950f302da982115910baf7e4fb2a"
+            },
+            "url": "https://api.github.com/repos/rails/rails/git/commits/a9a93368a6845579379afc250adbbda84d035af7",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmh74QCRC1aQ7uu5UhlAAAroAQAKbWzxxRgX5/1CCa/roqnbcC\n3C2+n2+bwfI3GRvcmrIfDVErwbESRIOiXYxfjWKmE2jIYYwDKoksZHnE3ZZRiArH\nf5LFW9WeaXuOsN1rHWVAkwQdKcGgP29ZxBQLbQ/FzR0/tkSNrl+WXGHzXvHmFp9A\nMF2RUWpuUYOdxW9YElNHp5spwXlBpf9qM3SqpiH10ANCwEX8Wls5xyzuME7KPxS3\nX7XpvNa3t2CPw+EWsCX7tOcVhRdj6rYoGfumE1Ud65q97wqXKZqv5Y1D6rg53wRs\nhewPePE+StS80zMC7+sS+/PVZeGfqKBF4jehoD3WfyW+C/w5gouQUtVHqSI94Dc3\n7NihpPw+SegU1QZjAEo3nid5kcPSRgbjIslO88WppNof9Fwo2gjI54Rr/I/EsNVZ\nkEOY8bCRAU84FiCjsqz++ImDhcluB0UCMxltQxVQ5KM+pAwdT5f24a/baTCTbHc6\nBec5ccQj+pKLwKo77i7mPZLiiPngpnF0IHng1KfOxS5wkCqF5dBXaYf8GzAmdIyi\nQMrxaTipqocUVlCMQBsoi8HECDQ6ksN0QgmykdXWisykLTfCbEleak1iblo+B3yK\n+8PlB15meZvHNfe7dYx/zj3zRwHPcNJtuMpv7pD3TdzsF8Ai14gvgRkfiCUnXII0\n+PwUccz0TjeIPTvLDs5z\n=Pwvb\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 4bd783299b21950f302da982115910baf7e4fb2a\nparent 126445239fa6d31ab081414a7d6d8d50fdfcb6ce\nparent 126cab3af7402efd9ce9d3195dffa43b7f6d7070\nauthor Petrik de Heus <petrik@deheus.net> 1720172048 +0200\ncommitter GitHub <noreply@github.com> 1720172048 +0200\n\nMerge pull request #52275 from kabirpathak/update-doc-for-number-helper-in-active-support\n\n[ci skip] Added usage documentation for ActiveSupport::NumberHelper."
+            }
+        },
+        "url": "https://api.github.com/repos/rails/rails/commits/a9a93368a6845579379afc250adbbda84d035af7",
+        "html_url": "https://github.com/rails/rails/commit/a9a93368a6845579379afc250adbbda84d035af7",
+        "comments_url": "https://api.github.com/repos/rails/rails/commits/a9a93368a6845579379afc250adbbda84d035af7/comments",
+        "author": {
+            "login": "p8",
+            "id": 28561,
+            "node_id": "MDQ6VXNlcjI4NTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/28561?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/p8",
+            "html_url": "https://github.com/p8",
+            "followers_url": "https://api.github.com/users/p8/followers",
+            "following_url": "https://api.github.com/users/p8/following{/other_user}",
+            "gists_url": "https://api.github.com/users/p8/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/p8/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/p8/subscriptions",
+            "organizations_url": "https://api.github.com/users/p8/orgs",
+            "repos_url": "https://api.github.com/users/p8/repos",
+            "events_url": "https://api.github.com/users/p8/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/p8/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "126445239fa6d31ab081414a7d6d8d50fdfcb6ce",
+                "url": "https://api.github.com/repos/rails/rails/commits/126445239fa6d31ab081414a7d6d8d50fdfcb6ce",
+                "html_url": "https://github.com/rails/rails/commit/126445239fa6d31ab081414a7d6d8d50fdfcb6ce"
+            },
+            {
+                "sha": "126cab3af7402efd9ce9d3195dffa43b7f6d7070",
+                "url": "https://api.github.com/repos/rails/rails/commits/126cab3af7402efd9ce9d3195dffa43b7f6d7070",
+                "html_url": "https://github.com/rails/rails/commit/126cab3af7402efd9ce9d3195dffa43b7f6d7070"
+            }
+        ]
+    },
+    {
+        "sha": "126445239fa6d31ab081414a7d6d8d50fdfcb6ce",
+        "node_id": "C_kwDNIULaACgxMjY0NDUyMzlmYTZkMzFhYjA4MTQxNGE3ZDZkOGQ1MGZkZmNiNmNl",
+        "commit": {
+            "author": {
+                "name": "Jean Boussier",
+                "email": "jean.boussier@gmail.com",
+                "date": "2024-07-05T08:27:46Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2024-07-05T08:27:46Z"
+            },
+            "message": "Merge pull request #52274 from Shopify/http-cache\n\nPrefer ETag over Last-Modified for `fresh_when` and `stale?` according to the HTTP specification",
+            "tree": {
+                "sha": "2cc9480bf95d3a6643eb3073d1b4958835bf4669",
+                "url": "https://api.github.com/repos/rails/rails/git/trees/2cc9480bf95d3a6643eb3073d1b4958835bf4669"
+            },
+            "url": "https://api.github.com/repos/rails/rails/git/commits/126445239fa6d31ab081414a7d6d8d50fdfcb6ce",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmh66CCRC1aQ7uu5UhlAAAJoIQAJb5foiVH5TaRxeM8PpbM6VH\nPalzNt5wQYxpzI8b//CsYDlqgyVl8pMyOb77DzZihweJCn91aUNvNQVmIWyprDcK\nHYfHyJXumD2v2peZ3GxxIaFrGV8RSRiWUxOL1TgoS9w6+Xw648yuws8fypg7xNvM\n4oGDPfE8/O13zrI9mAFzWgEz3IcTNHpmPkvgdZPLZH6y5RKt2jAr1FdlO8cmdmVp\nTKlbCkK3G0vMR+TzskQMQNxVTbziYp7v2OemtgrY5LIsfY2ZU8xxT/9nqtgKGReb\nupDxjdmuda2ZIhQkoEw1E3gFxx+1Lsy5Z2jZlCJYS76l0BD125vceNawvlTxkQtI\n9gHda2OugjxkGbILTHm/uSmapeS+9dq1TjIJ5pocBdOtngYQboAXrVr6UuvyH7Fi\ngKOIY9mVMkbn6WMDx3CaiDcUWzgI6at8FNHg40AmB2SkCTfBOiXQMW4PFka/AMoQ\nzgXQFHXsd6VSmrULhE5YYYokTAxuj14Opmt006xM/eqoMz028ZBvRGVLmonHy2du\npe/+PEhiguaImjIc7aSwpTXWC29Vbi2EA54VWbN2Sm0FT6n5/oMHbxDF7SS2zc25\nDlIkCliUQpAQBrfcIDN+ZP6ntWx4xSM+V9GirWk+IW/CA49ETgfwicWY4d1pZtK7\nZXhevjdX+CNujlnZac97\n=PjhP\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 2cc9480bf95d3a6643eb3073d1b4958835bf4669\nparent c79671cc5ca3855482745d3fd028318bc52633c1\nparent fc7637103a7edc723b92a1b7fec297eede0c5cb9\nauthor Jean Boussier <jean.boussier@gmail.com> 1720168066 +0200\ncommitter GitHub <noreply@github.com> 1720168066 +0200\n\nMerge pull request #52274 from Shopify/http-cache\n\nPrefer ETag over Last-Modified for `fresh_when` and `stale?` according to the HTTP specification"
+            }
+        },
+        "url": "https://api.github.com/repos/rails/rails/commits/126445239fa6d31ab081414a7d6d8d50fdfcb6ce",
+        "html_url": "https://github.com/rails/rails/commit/126445239fa6d31ab081414a7d6d8d50fdfcb6ce",
+        "comments_url": "https://api.github.com/repos/rails/rails/commits/126445239fa6d31ab081414a7d6d8d50fdfcb6ce/comments",
+        "author": {
+            "login": "byroot",
+            "id": 44640,
+            "node_id": "MDQ6VXNlcjQ0NjQw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44640?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/byroot",
+            "html_url": "https://github.com/byroot",
+            "followers_url": "https://api.github.com/users/byroot/followers",
+            "following_url": "https://api.github.com/users/byroot/following{/other_user}",
+            "gists_url": "https://api.github.com/users/byroot/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/byroot/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/byroot/subscriptions",
+            "organizations_url": "https://api.github.com/users/byroot/orgs",
+            "repos_url": "https://api.github.com/users/byroot/repos",
+            "events_url": "https://api.github.com/users/byroot/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/byroot/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "c79671cc5ca3855482745d3fd028318bc52633c1",
+                "url": "https://api.github.com/repos/rails/rails/commits/c79671cc5ca3855482745d3fd028318bc52633c1",
+                "html_url": "https://github.com/rails/rails/commit/c79671cc5ca3855482745d3fd028318bc52633c1"
+            },
+            {
+                "sha": "fc7637103a7edc723b92a1b7fec297eede0c5cb9",
+                "url": "https://api.github.com/repos/rails/rails/commits/fc7637103a7edc723b92a1b7fec297eede0c5cb9",
+                "html_url": "https://github.com/rails/rails/commit/fc7637103a7edc723b92a1b7fec297eede0c5cb9"
+            }
+        ]
+    },
+    {
+        "sha": "126cab3af7402efd9ce9d3195dffa43b7f6d7070",
+        "node_id": "C_kwDNIULaACgxMjZjYWIzYWY3NDAyZWZkOWNlOWQzMTk1ZGZmYTQzYjdmNmQ3MDcw",
+        "commit": {
+            "author": {
+                "name": "kabirpathak",
+                "email": "kabirpathak99@gmail.com",
+                "date": "2024-07-05T08:21:55Z"
+            },
+            "committer": {
+                "name": "kabirpathak",
+                "email": "kabirpathak99@gmail.com",
+                "date": "2024-07-05T08:21:55Z"
+            },
+            "message": "[ci skip] Added usage documentation for ActiveSupport::NumberHelper.",
+            "tree": {
+                "sha": "884b8eb361061fd2490a72ea43c9abd9d882c432",
+                "url": "https://api.github.com/repos/rails/rails/git/trees/884b8eb361061fd2490a72ea43c9abd9d882c432"
+            },
+            "url": "https://api.github.com/repos/rails/rails/git/commits/126cab3af7402efd9ce9d3195dffa43b7f6d7070",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/rails/rails/commits/126cab3af7402efd9ce9d3195dffa43b7f6d7070",
+        "html_url": "https://github.com/rails/rails/commit/126cab3af7402efd9ce9d3195dffa43b7f6d7070",
+        "comments_url": "https://api.github.com/repos/rails/rails/commits/126cab3af7402efd9ce9d3195dffa43b7f6d7070/comments",
+        "author": {
+            "login": "kabirpathak",
+            "id": 46262107,
+            "node_id": "MDQ6VXNlcjQ2MjYyMTA3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/46262107?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kabirpathak",
+            "html_url": "https://github.com/kabirpathak",
+            "followers_url": "https://api.github.com/users/kabirpathak/followers",
+            "following_url": "https://api.github.com/users/kabirpathak/following{/other_user}",
+            "gists_url": "https://api.github.com/users/kabirpathak/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/kabirpathak/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/kabirpathak/subscriptions",
+            "organizations_url": "https://api.github.com/users/kabirpathak/orgs",
+            "repos_url": "https://api.github.com/users/kabirpathak/repos",
+            "events_url": "https://api.github.com/users/kabirpathak/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/kabirpathak/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "kabirpathak",
+            "id": 46262107,
+            "node_id": "MDQ6VXNlcjQ2MjYyMTA3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/46262107?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kabirpathak",
+            "html_url": "https://github.com/kabirpathak",
+            "followers_url": "https://api.github.com/users/kabirpathak/followers",
+            "following_url": "https://api.github.com/users/kabirpathak/following{/other_user}",
+            "gists_url": "https://api.github.com/users/kabirpathak/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/kabirpathak/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/kabirpathak/subscriptions",
+            "organizations_url": "https://api.github.com/users/kabirpathak/orgs",
+            "repos_url": "https://api.github.com/users/kabirpathak/repos",
+            "events_url": "https://api.github.com/users/kabirpathak/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/kabirpathak/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "4fa56814f18fd3da49c83931fa773caa727d8096",
+                "url": "https://api.github.com/repos/rails/rails/commits/4fa56814f18fd3da49c83931fa773caa727d8096",
+                "html_url": "https://github.com/rails/rails/commit/4fa56814f18fd3da49c83931fa773caa727d8096"
+            }
+        ]
+    },
+    {
+        "sha": "fc7637103a7edc723b92a1b7fec297eede0c5cb9",
+        "node_id": "C_kwDNIULaAChmYzc2MzcxMDNhN2VkYzcyM2I5MmExYjdmZWMyOTdlZWRlMGM1Y2I5",
+        "commit": {
+            "author": {
+                "name": "heka1024",
+                "email": "heka1024@gmail.com",
+                "date": "2024-06-22T10:33:58Z"
+            },
+            "committer": {
+                "name": "Jean Boussier",
+                "email": "jean.boussier@gmail.com",
+                "date": "2024-07-05T08:18:43Z"
+            },
+            "message": "Prefer ETag over Last-Modified for `fresh_when` and `stale?` according to the HTTP specification",
+            "tree": {
+                "sha": "87353acfce886c270c13ca804111ba71dcd600e2",
+                "url": "https://api.github.com/repos/rails/rails/git/trees/87353acfce886c270c13ca804111ba71dcd600e2"
+            },
+            "url": "https://api.github.com/repos/rails/rails/git/commits/fc7637103a7edc723b92a1b7fec297eede0c5cb9",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/rails/rails/commits/fc7637103a7edc723b92a1b7fec297eede0c5cb9",
+        "html_url": "https://github.com/rails/rails/commit/fc7637103a7edc723b92a1b7fec297eede0c5cb9",
+        "comments_url": "https://api.github.com/repos/rails/rails/commits/fc7637103a7edc723b92a1b7fec297eede0c5cb9/comments",
+        "author": {
+            "login": "heka1024",
+            "id": 44280450,
+            "node_id": "MDQ6VXNlcjQ0MjgwNDUw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44280450?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/heka1024",
+            "html_url": "https://github.com/heka1024",
+            "followers_url": "https://api.github.com/users/heka1024/followers",
+            "following_url": "https://api.github.com/users/heka1024/following{/other_user}",
+            "gists_url": "https://api.github.com/users/heka1024/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/heka1024/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/heka1024/subscriptions",
+            "organizations_url": "https://api.github.com/users/heka1024/orgs",
+            "repos_url": "https://api.github.com/users/heka1024/repos",
+            "events_url": "https://api.github.com/users/heka1024/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/heka1024/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "byroot",
+            "id": 44640,
+            "node_id": "MDQ6VXNlcjQ0NjQw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44640?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/byroot",
+            "html_url": "https://github.com/byroot",
+            "followers_url": "https://api.github.com/users/byroot/followers",
+            "following_url": "https://api.github.com/users/byroot/following{/other_user}",
+            "gists_url": "https://api.github.com/users/byroot/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/byroot/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/byroot/subscriptions",
+            "organizations_url": "https://api.github.com/users/byroot/orgs",
+            "repos_url": "https://api.github.com/users/byroot/repos",
+            "events_url": "https://api.github.com/users/byroot/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/byroot/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "4fa56814f18fd3da49c83931fa773caa727d8096",
+                "url": "https://api.github.com/repos/rails/rails/commits/4fa56814f18fd3da49c83931fa773caa727d8096",
+                "html_url": "https://github.com/rails/rails/commit/4fa56814f18fd3da49c83931fa773caa727d8096"
+            }
+        ]
+    },
+    {
+        "sha": "c79671cc5ca3855482745d3fd028318bc52633c1",
+        "node_id": "C_kwDNIULaAChjNzk2NzFjYzVjYTM4NTU0ODI3NDVkM2ZkMDI4MzE4YmM1MjYzM2Mx",
+        "commit": {
+            "author": {
+                "name": "Jean Boussier",
+                "email": "jean.boussier@gmail.com",
+                "date": "2024-07-05T08:00:54Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2024-07-05T08:00:54Z"
+            },
+            "message": "Merge pull request #52254 from ddux/patch-1\n\n[ci skip] Update config/boot.rb contents in initialization.md",
+            "tree": {
+                "sha": "3de06d7e6a584fdb8780b868f424147dc1710ba3",
+                "url": "https://api.github.com/repos/rails/rails/git/trees/3de06d7e6a584fdb8780b868f424147dc1710ba3"
+            },
+            "url": "https://api.github.com/repos/rails/rails/git/commits/c79671cc5ca3855482745d3fd028318bc52633c1",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmh6g2CRC1aQ7uu5UhlAAAkFEQAJ9kqel/J5focd4J7sn7mTVi\nkC++ahIa0by9K+KzMQbWfHgHEtb5BiHZ4pe1g4h3OWp5TdzG/IK0gRqzs1wD/QAF\nZvD1/yCuPgw+qkqSwvpdzgDw82Nd4YyJFp+70cv4D/5H528AqPoDX+BTXcVhJrok\nptnsaPjv8zHZSxJ9HZ+iwviwWRKp6sqUUTPbdaq1Nmw9Eb+cOrdQcqN2opvk4v1R\nGsnZdPq6pV6hsKWeaqCoID83ILY38PceG3444nr02GBVmdk4xmfs4OIzqLOdnNSc\nNTI3lRBHZCRMvxIUP1ZZgQZej1A+jelrEe3fyrk8HAgU389PnvNQNWV1KCj9+a8m\n8yKxuCgfdrZv6ConGeOFnuTTvIB7ZA8vaP8TVrLStYOzbn6/thCO+Q6aaExO4O1S\nbhyJTMck6QQ4W7ledyiOQKCP2TZqMxwcqCEOOx677kLxuyzhlMn53e/SNScTEwkz\neQAi0CNV6e6Q8sVUyWpSik6+IZ6E94CM0nwOiO1vyy0Hk+mQpLUEe9DNm27SmQXc\nCKVKASehb7cWpjymfwlei0F9ZnXsWWQflRQhV8kAWQeiibozn/xA4pqYtQSs5muc\ntB+h70TgIELkBiQw9K0udrGN56SxFlDSm1lN6ol5/T+C6eHfSXN1C1BRj9+zJ4oQ\nppaKC2frleXL2jaA3SGs\n=3Wmt\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 3de06d7e6a584fdb8780b868f424147dc1710ba3\nparent 2edad3c542d1a305600130020176b9d18c5dcedb\nparent e5561764577c6f279b70daa64e76ca1a1869deb9\nauthor Jean Boussier <jean.boussier@gmail.com> 1720166454 +0200\ncommitter GitHub <noreply@github.com> 1720166454 +0200\n\nMerge pull request #52254 from ddux/patch-1\n\n[ci skip] Update config/boot.rb contents in initialization.md "
+            }
+        },
+        "url": "https://api.github.com/repos/rails/rails/commits/c79671cc5ca3855482745d3fd028318bc52633c1",
+        "html_url": "https://github.com/rails/rails/commit/c79671cc5ca3855482745d3fd028318bc52633c1",
+        "comments_url": "https://api.github.com/repos/rails/rails/commits/c79671cc5ca3855482745d3fd028318bc52633c1/comments",
+        "author": {
+            "login": "byroot",
+            "id": 44640,
+            "node_id": "MDQ6VXNlcjQ0NjQw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44640?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/byroot",
+            "html_url": "https://github.com/byroot",
+            "followers_url": "https://api.github.com/users/byroot/followers",
+            "following_url": "https://api.github.com/users/byroot/following{/other_user}",
+            "gists_url": "https://api.github.com/users/byroot/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/byroot/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/byroot/subscriptions",
+            "organizations_url": "https://api.github.com/users/byroot/orgs",
+            "repos_url": "https://api.github.com/users/byroot/repos",
+            "events_url": "https://api.github.com/users/byroot/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/byroot/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "2edad3c542d1a305600130020176b9d18c5dcedb",
+                "url": "https://api.github.com/repos/rails/rails/commits/2edad3c542d1a305600130020176b9d18c5dcedb",
+                "html_url": "https://github.com/rails/rails/commit/2edad3c542d1a305600130020176b9d18c5dcedb"
+            },
+            {
+                "sha": "e5561764577c6f279b70daa64e76ca1a1869deb9",
+                "url": "https://api.github.com/repos/rails/rails/commits/e5561764577c6f279b70daa64e76ca1a1869deb9",
+                "html_url": "https://github.com/rails/rails/commit/e5561764577c6f279b70daa64e76ca1a1869deb9"
+            }
+        ]
+    },
+    {
+        "sha": "2edad3c542d1a305600130020176b9d18c5dcedb",
+        "node_id": "C_kwDNIULaACgyZWRhZDNjNTQyZDFhMzA1NjAwMTMwMDIwMTc2YjlkMThjNWRjZWRi",
+        "commit": {
+            "author": {
+                "name": "Jean Boussier",
+                "email": "jean.boussier@gmail.com",
+                "date": "2024-07-05T07:59:55Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2024-07-05T07:59:55Z"
+            },
+            "message": "Merge pull request #52272 from fatkodima/skip-triggering-instantiation-notification\n\nSkip triggering \"instantiation.active_record\" notification when there are no records",
+            "tree": {
+                "sha": "d7f9b390f6b49f609d6a1e3399e1894cdb7eca90",
+                "url": "https://api.github.com/repos/rails/rails/git/trees/d7f9b390f6b49f609d6a1e3399e1894cdb7eca90"
+            },
+            "url": "https://api.github.com/repos/rails/rails/git/commits/2edad3c542d1a305600130020176b9d18c5dcedb",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmh6f7CRC1aQ7uu5UhlAAA51oQAK//7X0Aqfjs9gUqVT1C7/M3\nkigwglSil7WK+9GW65sM5ZS7mdY/K1PTBxCQNO9KZDULY2/JiYwbQ9/qxhLMD47I\ntbZJ8Tf662AEpyHgWh2d3LaeO2UrNb5RkDTcdOg9GBixxxRZq9Z0NgBJyp9kc8hv\n78B8Phrb1OHr+w5t09+wAGvps+3EtYuFprepSrMkC7rkC9wFCXt3MOZzTXWXJo67\nqqzqm2O80G5ADCWZ4zeMUZdWRfu68UD/QvlHaTsiV6bTib+jEZJ6F2cT6cjqgDiq\nOdFGUSbaJgkmgfRibHq8ClSvBjz84zLudGLws3Mn9f0gZYbTnuQ3r5UkwEi9FIBI\nhwGi/kkNKH2gQ+kCEBMMfrHqL3lXhgNL24e7qV/3QrfD6nZvOBPrcxQTiEpklpbL\nskl1TiKHEivEKNb4x6o5Ku8HuYBWUo4k3bNFE0eUJBznrTnYvQPXbaHn+GAR78b6\n0m/K5AGSOHi0TCtUFa89FVH3tKaXyB8cucsbEisoetNRsodMDCom7E70P7rxpBQq\nD/x00KNiatEstN4JBBp67yrzUtf3Cr0qDu0pI9Ad2YZC6pNK8LTF6YvNCQQ3cQ2V\neecUbhYHis7UyCEl3bP3tWNb4b7J6QbrdHZhRhu3BQTp08IUfd2DQfGDbkcyhVGO\nWVU1VYu1K50w/3COXDHY\n=PlWX\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree d7f9b390f6b49f609d6a1e3399e1894cdb7eca90\nparent 4fa56814f18fd3da49c83931fa773caa727d8096\nparent 2410312733a253ad18a93f03ba3a64a8d11cc6ee\nauthor Jean Boussier <jean.boussier@gmail.com> 1720166395 +0200\ncommitter GitHub <noreply@github.com> 1720166395 +0200\n\nMerge pull request #52272 from fatkodima/skip-triggering-instantiation-notification\n\nSkip triggering \"instantiation.active_record\" notification when there are no records"
+            }
+        },
+        "url": "https://api.github.com/repos/rails/rails/commits/2edad3c542d1a305600130020176b9d18c5dcedb",
+        "html_url": "https://github.com/rails/rails/commit/2edad3c542d1a305600130020176b9d18c5dcedb",
+        "comments_url": "https://api.github.com/repos/rails/rails/commits/2edad3c542d1a305600130020176b9d18c5dcedb/comments",
+        "author": {
+            "login": "byroot",
+            "id": 44640,
+            "node_id": "MDQ6VXNlcjQ0NjQw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44640?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/byroot",
+            "html_url": "https://github.com/byroot",
+            "followers_url": "https://api.github.com/users/byroot/followers",
+            "following_url": "https://api.github.com/users/byroot/following{/other_user}",
+            "gists_url": "https://api.github.com/users/byroot/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/byroot/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/byroot/subscriptions",
+            "organizations_url": "https://api.github.com/users/byroot/orgs",
+            "repos_url": "https://api.github.com/users/byroot/repos",
+            "events_url": "https://api.github.com/users/byroot/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/byroot/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "4fa56814f18fd3da49c83931fa773caa727d8096",
+                "url": "https://api.github.com/repos/rails/rails/commits/4fa56814f18fd3da49c83931fa773caa727d8096",
+                "html_url": "https://github.com/rails/rails/commit/4fa56814f18fd3da49c83931fa773caa727d8096"
+            },
+            {
+                "sha": "2410312733a253ad18a93f03ba3a64a8d11cc6ee",
+                "url": "https://api.github.com/repos/rails/rails/commits/2410312733a253ad18a93f03ba3a64a8d11cc6ee",
+                "html_url": "https://github.com/rails/rails/commit/2410312733a253ad18a93f03ba3a64a8d11cc6ee"
+            }
+        ]
+    },
+    {
+        "sha": "2410312733a253ad18a93f03ba3a64a8d11cc6ee",
+        "node_id": "C_kwDNIULaACgyNDEwMzEyNzMzYTI1M2FkMThhOTNmMDNiYTNhNjRhOGQxMWNjNmVl",
+        "commit": {
+            "author": {
+                "name": "fatkodima",
+                "email": "fatkodima123@gmail.com",
+                "date": "2024-07-04T18:42:35Z"
+            },
+            "committer": {
+                "name": "fatkodima",
+                "email": "fatkodima123@gmail.com",
+                "date": "2024-07-04T18:43:46Z"
+            },
+            "message": "Skip triggering \"instantiation.active_record\" notification when there are no records",
+            "tree": {
+                "sha": "d7f9b390f6b49f609d6a1e3399e1894cdb7eca90",
+                "url": "https://api.github.com/repos/rails/rails/git/trees/d7f9b390f6b49f609d6a1e3399e1894cdb7eca90"
+            },
+            "url": "https://api.github.com/repos/rails/rails/git/commits/2410312733a253ad18a93f03ba3a64a8d11cc6ee",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/rails/rails/commits/2410312733a253ad18a93f03ba3a64a8d11cc6ee",
+        "html_url": "https://github.com/rails/rails/commit/2410312733a253ad18a93f03ba3a64a8d11cc6ee",
+        "comments_url": "https://api.github.com/repos/rails/rails/commits/2410312733a253ad18a93f03ba3a64a8d11cc6ee/comments",
+        "author": {
+            "login": "fatkodima",
+            "id": 5657035,
+            "node_id": "MDQ6VXNlcjU2NTcwMzU=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5657035?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fatkodima",
+            "html_url": "https://github.com/fatkodima",
+            "followers_url": "https://api.github.com/users/fatkodima/followers",
+            "following_url": "https://api.github.com/users/fatkodima/following{/other_user}",
+            "gists_url": "https://api.github.com/users/fatkodima/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/fatkodima/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/fatkodima/subscriptions",
+            "organizations_url": "https://api.github.com/users/fatkodima/orgs",
+            "repos_url": "https://api.github.com/users/fatkodima/repos",
+            "events_url": "https://api.github.com/users/fatkodima/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/fatkodima/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "fatkodima",
+            "id": 5657035,
+            "node_id": "MDQ6VXNlcjU2NTcwMzU=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5657035?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fatkodima",
+            "html_url": "https://github.com/fatkodima",
+            "followers_url": "https://api.github.com/users/fatkodima/followers",
+            "following_url": "https://api.github.com/users/fatkodima/following{/other_user}",
+            "gists_url": "https://api.github.com/users/fatkodima/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/fatkodima/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/fatkodima/subscriptions",
+            "organizations_url": "https://api.github.com/users/fatkodima/orgs",
+            "repos_url": "https://api.github.com/users/fatkodima/repos",
+            "events_url": "https://api.github.com/users/fatkodima/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/fatkodima/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "4fa56814f18fd3da49c83931fa773caa727d8096",
+                "url": "https://api.github.com/repos/rails/rails/commits/4fa56814f18fd3da49c83931fa773caa727d8096",
+                "html_url": "https://github.com/rails/rails/commit/4fa56814f18fd3da49c83931fa773caa727d8096"
+            }
+        ]
+    },
+    {
+        "sha": "4fa56814f18fd3da49c83931fa773caa727d8096",
+        "node_id": "C_kwDNIULaACg0ZmE1NjgxNGYxOGZkM2RhNDljODM5MzFmYTc3M2NhYTcyN2Q4MDk2",
+        "commit": {
+            "author": {
+                "name": "eileencodes",
+                "email": "eileencodes@gmail.com",
+                "date": "2024-07-03T12:41:48Z"
+            },
+            "committer": {
+                "name": "eileencodes",
+                "email": "eileencodes@gmail.com",
+                "date": "2024-07-03T12:41:48Z"
+            },
+            "message": "fix newlines\n\nNew lines for these were off, only the new options were put on a new\nline so the code looked awkward. I'd rather just oneline it.",
+            "tree": {
+                "sha": "1299a5d8ece31fdb2295617ae0a5d405954298f7",
+                "url": "https://api.github.com/repos/rails/rails/git/trees/1299a5d8ece31fdb2295617ae0a5d405954298f7"
+            },
+            "url": "https://api.github.com/repos/rails/rails/git/commits/4fa56814f18fd3da49c83931fa773caa727d8096",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRaCh2oi/bVJnz4ao4fKpK3z990VQUCZoVHJgAKCRAfKpK3z990\nVV5zAP9fxIIss1T4SRDmU4YS3tvq6+R/z6IIj33Bd64ny5X9mwEAmZCVLi+N2yyo\n65YeVfzdlnBWPJQHT8EdSYliKKplqAE=\n=sTzs\n-----END PGP SIGNATURE-----",
+                "payload": "tree 1299a5d8ece31fdb2295617ae0a5d405954298f7\nparent 71e14aa7e9d48a88b4e39322f1c6485e21511221\nauthor eileencodes <eileencodes@gmail.com> 1720010508 -0400\ncommitter eileencodes <eileencodes@gmail.com> 1720010508 -0400\n\nfix newlines\n\nNew lines for these were off, only the new options were put on a new\nline so the code looked awkward. I'd rather just oneline it.\n"
+            }
+        },
+        "url": "https://api.github.com/repos/rails/rails/commits/4fa56814f18fd3da49c83931fa773caa727d8096",
+        "html_url": "https://github.com/rails/rails/commit/4fa56814f18fd3da49c83931fa773caa727d8096",
+        "comments_url": "https://api.github.com/repos/rails/rails/commits/4fa56814f18fd3da49c83931fa773caa727d8096/comments",
+        "author": {
+            "login": "eileencodes",
+            "id": 1080678,
+            "node_id": "MDQ6VXNlcjEwODA2Nzg=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1080678?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/eileencodes",
+            "html_url": "https://github.com/eileencodes",
+            "followers_url": "https://api.github.com/users/eileencodes/followers",
+            "following_url": "https://api.github.com/users/eileencodes/following{/other_user}",
+            "gists_url": "https://api.github.com/users/eileencodes/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/eileencodes/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/eileencodes/subscriptions",
+            "organizations_url": "https://api.github.com/users/eileencodes/orgs",
+            "repos_url": "https://api.github.com/users/eileencodes/repos",
+            "events_url": "https://api.github.com/users/eileencodes/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/eileencodes/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "eileencodes",
+            "id": 1080678,
+            "node_id": "MDQ6VXNlcjEwODA2Nzg=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1080678?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/eileencodes",
+            "html_url": "https://github.com/eileencodes",
+            "followers_url": "https://api.github.com/users/eileencodes/followers",
+            "following_url": "https://api.github.com/users/eileencodes/following{/other_user}",
+            "gists_url": "https://api.github.com/users/eileencodes/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/eileencodes/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/eileencodes/subscriptions",
+            "organizations_url": "https://api.github.com/users/eileencodes/orgs",
+            "repos_url": "https://api.github.com/users/eileencodes/repos",
+            "events_url": "https://api.github.com/users/eileencodes/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/eileencodes/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "71e14aa7e9d48a88b4e39322f1c6485e21511221",
+                "url": "https://api.github.com/repos/rails/rails/commits/71e14aa7e9d48a88b4e39322f1c6485e21511221",
+                "html_url": "https://github.com/rails/rails/commit/71e14aa7e9d48a88b4e39322f1c6485e21511221"
+            }
+        ]
+    },
+    {
+        "sha": "71e14aa7e9d48a88b4e39322f1c6485e21511221",
+        "node_id": "C_kwDNIULaACg3MWUxNGFhN2U5ZDQ4YTg4YjRlMzkzMjJmMWM2NDg1ZTIxNTExMjIx",
+        "commit": {
+            "author": {
+                "name": "Eileen M. Uchitelle",
+                "email": "eileencodes@users.noreply.github.com",
+                "date": "2024-07-03T12:39:13Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2024-07-03T12:39:13Z"
+            },
+            "message": "Merge pull request #51735 from heka1024/encryption-compressor\n\nIntroduce `compressor` option to `ActiveRecord::Encryption::Encryptor`",
+            "tree": {
+                "sha": "651576d7312bce531c9e04b9c66077056ec06db8",
+                "url": "https://api.github.com/repos/rails/rails/git/trees/651576d7312bce531c9e04b9c66077056ec06db8"
+            },
+            "url": "https://api.github.com/repos/rails/rails/git/commits/71e14aa7e9d48a88b4e39322f1c6485e21511221",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmhUZxCRC1aQ7uu5UhlAAAdskQACMaBih8P85GePwqQe+/YtkK\nb1HrzN1OVasssyNu5VyISKTyt1yAgjpSCjGqhWl1o2lIL708jNFVP6fhcqfMOnAe\n6fAU4phLFj0Oa+sBbmflXcvj8k1XjTNJG57cS3GyUyb5LnQZ3v9n0q66mM1CSvGP\ngPzzmUiTW/zh1e6mOr52tMPg4kqw8J2UCKUJ4Qhv3mEdnXBEZb5InuCAExt95EBW\ndNX0gQkAVr8/L52nNCyhDBqpQ4uAD5Yzmsqq1D+gz8WutHmEEj4FFxpkBS2OREP3\nCt6iKpMF3+4yAdTwcsE1BGCQHzAJV2ausIldH99+/YPhKUAi+wHYpP6flu1mQZsS\nvi6XQ/E/wWLDgL4AHLmF08I9ClOX6Vi/k3p49Svi2Jr8Al35RoWHhKttoXFWHwGU\n02ecU/b2jCPnzMD66Xs6m0pSUvEbZHBtZEyQ5r/KxyKEwjL0pnEYLHAfrCg4UtM8\nc68414FLGLxkQicQu404PGvZFDhgsNDMrERk13d43tvH3gpj/vPe51CWH1kMYeDs\nxrh9pQQSeAoOsb9lB8iSCiIwAtQYH7bQ06RlpAJUC9+VDohjbk85sEUR1c20Uh38\n5r73aZewxyCvq9uOdJSgRJDSulYwXxNyVDqQJweT5xQ/xrwBbGV1iq/w8nLxe0bu\nT9J9BeMb1MIJGC/RgGCM\n=e5qj\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 651576d7312bce531c9e04b9c66077056ec06db8\nparent 738fde4782a1a457341aae54b80fa9844ba73904\nparent 75421601ceeec4d7fd41bebb313c7765f1e6e4c7\nauthor Eileen M. Uchitelle <eileencodes@users.noreply.github.com> 1720010353 -0400\ncommitter GitHub <noreply@github.com> 1720010353 -0400\n\nMerge pull request #51735 from heka1024/encryption-compressor\n\nIntroduce `compressor` option to `ActiveRecord::Encryption::Encryptor`"
+            }
+        },
+        "url": "https://api.github.com/repos/rails/rails/commits/71e14aa7e9d48a88b4e39322f1c6485e21511221",
+        "html_url": "https://github.com/rails/rails/commit/71e14aa7e9d48a88b4e39322f1c6485e21511221",
+        "comments_url": "https://api.github.com/repos/rails/rails/commits/71e14aa7e9d48a88b4e39322f1c6485e21511221/comments",
+        "author": {
+            "login": "eileencodes",
+            "id": 1080678,
+            "node_id": "MDQ6VXNlcjEwODA2Nzg=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1080678?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/eileencodes",
+            "html_url": "https://github.com/eileencodes",
+            "followers_url": "https://api.github.com/users/eileencodes/followers",
+            "following_url": "https://api.github.com/users/eileencodes/following{/other_user}",
+            "gists_url": "https://api.github.com/users/eileencodes/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/eileencodes/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/eileencodes/subscriptions",
+            "organizations_url": "https://api.github.com/users/eileencodes/orgs",
+            "repos_url": "https://api.github.com/users/eileencodes/repos",
+            "events_url": "https://api.github.com/users/eileencodes/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/eileencodes/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "738fde4782a1a457341aae54b80fa9844ba73904",
+                "url": "https://api.github.com/repos/rails/rails/commits/738fde4782a1a457341aae54b80fa9844ba73904",
+                "html_url": "https://github.com/rails/rails/commit/738fde4782a1a457341aae54b80fa9844ba73904"
+            },
+            {
+                "sha": "75421601ceeec4d7fd41bebb313c7765f1e6e4c7",
+                "url": "https://api.github.com/repos/rails/rails/commits/75421601ceeec4d7fd41bebb313c7765f1e6e4c7",
+                "html_url": "https://github.com/rails/rails/commit/75421601ceeec4d7fd41bebb313c7765f1e6e4c7"
+            }
+        ]
+    },
+    {
+        "sha": "75421601ceeec4d7fd41bebb313c7765f1e6e4c7",
+        "node_id": "C_kwDNIULaACg3NTQyMTYwMWNlZWVjNGQ3ZmQ0MWJlYmIzMTNjNzc2NWYxZTZlNGM3",
+        "commit": {
+            "author": {
+                "name": "heka1024",
+                "email": "heka1024@gmail.com",
+                "date": "2024-05-04T03:27:06Z"
+            },
+            "committer": {
+                "name": "heka1024",
+                "email": "heka1024@gmail.com",
+                "date": "2024-07-03T09:48:07Z"
+            },
+            "message": "Introduce `compressor` option to `ActiveRecord::Encryption::Encryptor`",
+            "tree": {
+                "sha": "3f2f6570d69eeb9aceadb6455829fc477e96d1c4",
+                "url": "https://api.github.com/repos/rails/rails/git/trees/3f2f6570d69eeb9aceadb6455829fc477e96d1c4"
+            },
+            "url": "https://api.github.com/repos/rails/rails/git/commits/75421601ceeec4d7fd41bebb313c7765f1e6e4c7",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/rails/rails/commits/75421601ceeec4d7fd41bebb313c7765f1e6e4c7",
+        "html_url": "https://github.com/rails/rails/commit/75421601ceeec4d7fd41bebb313c7765f1e6e4c7",
+        "comments_url": "https://api.github.com/repos/rails/rails/commits/75421601ceeec4d7fd41bebb313c7765f1e6e4c7/comments",
+        "author": {
+            "login": "heka1024",
+            "id": 44280450,
+            "node_id": "MDQ6VXNlcjQ0MjgwNDUw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44280450?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/heka1024",
+            "html_url": "https://github.com/heka1024",
+            "followers_url": "https://api.github.com/users/heka1024/followers",
+            "following_url": "https://api.github.com/users/heka1024/following{/other_user}",
+            "gists_url": "https://api.github.com/users/heka1024/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/heka1024/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/heka1024/subscriptions",
+            "organizations_url": "https://api.github.com/users/heka1024/orgs",
+            "repos_url": "https://api.github.com/users/heka1024/repos",
+            "events_url": "https://api.github.com/users/heka1024/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/heka1024/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "heka1024",
+            "id": 44280450,
+            "node_id": "MDQ6VXNlcjQ0MjgwNDUw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44280450?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/heka1024",
+            "html_url": "https://github.com/heka1024",
+            "followers_url": "https://api.github.com/users/heka1024/followers",
+            "following_url": "https://api.github.com/users/heka1024/following{/other_user}",
+            "gists_url": "https://api.github.com/users/heka1024/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/heka1024/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/heka1024/subscriptions",
+            "organizations_url": "https://api.github.com/users/heka1024/orgs",
+            "repos_url": "https://api.github.com/users/heka1024/repos",
+            "events_url": "https://api.github.com/users/heka1024/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/heka1024/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "5bec50bc70380bb1e70e8fb0a1654130042b1f16",
+                "url": "https://api.github.com/repos/rails/rails/commits/5bec50bc70380bb1e70e8fb0a1654130042b1f16",
+                "html_url": "https://github.com/rails/rails/commit/5bec50bc70380bb1e70e8fb0a1654130042b1f16"
+            }
+        ]
+    },
+    {
+        "sha": "738fde4782a1a457341aae54b80fa9844ba73904",
+        "node_id": "C_kwDNIULaACg3MzhmZGU0NzgyYTFhNDU3MzQxYWFlNTRiODBmYTk4NDRiYTczOTA0",
+        "commit": {
+            "author": {
+                "name": "Xavier Noria",
+                "email": "fxn@hashref.com",
+                "date": "2024-07-02T09:00:04Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2024-07-02T09:00:04Z"
+            },
+            "message": "Merge pull request #52251 from rails/fxn/edits\n\nEdits in the dev containers guide",
+            "tree": {
+                "sha": "432d7fc38d854d1e9b3f16d56051d740c2986645",
+                "url": "https://api.github.com/repos/rails/rails/git/trees/432d7fc38d854d1e9b3f16d56051d740c2986645"
+            },
+            "url": "https://api.github.com/repos/rails/rails/git/commits/738fde4782a1a457341aae54b80fa9844ba73904",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmg8GUCRC1aQ7uu5UhlAAADacQACivfIJ8AeQNiEQffdI8o+Pi\n0sJtVlYeMPDUm3jGxTKEElCo6CCyQJdUUmWqP64BTfQnl1qJxvalCblmU4ODD8mJ\nWEYwKla9F6S3oUylE0CXcZTE0iWSTWfUtGmX9DCXDWj4Tln/51+AdZXvAxrkUPNq\nb2wSP30HY7FkGulub73lun0lCttOM8pQ4w63pMbSpNiDtq2s6/rYx9g87BT6tiAU\n0np1a42ukdOg91AxQI5UvPaGhJQmwRtVmKnoF/SlrMP0SOHMTCYAqqwr2QXQ2qNA\nSubCqF2huQ/rebKWJWumw11dbIO6V7j9spFaEYFBHXRXt8fBqmZ4TT8DLTNdzPeW\nT29mdzQQUwHflnpzrkmFLaPEl+1MGSkkE8kjpQ7NxWyUmk+W3PVMTg/Mhn0alnhx\n8HTApGhI29P7qN4/v1khNGi62K8xx58EleeKFSI2kWPvtF7rz2G0IBV4Ha79utD6\n7jeygzjbIVnZVQREhz1yQuSe+z29vuTqOKMqpRbDbHa1Jc0Vo5pjjxTbYbx+vZ7U\nyvZgj4KCqsjPys2cNPTzPiSTs+Bvi9P4iqBOFG9q8pYhmqXUAf5yHU4qv/YzuFy5\nF98+ZvdLpoUT1xlLr+6Gx4iLctYy+43QpUQX9ZFJRvRh5AyglFy07nU5ZCU/ehWx\n9beTdII5UHfgD8VPGbZ/\n=yzUt\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 432d7fc38d854d1e9b3f16d56051d740c2986645\nparent 35a4946d1ca77495b516801d5c3dbdc64b5d702b\nparent 47a5d067d6dcf60d91da9499235f10bd7289382b\nauthor Xavier Noria <fxn@hashref.com> 1719910804 +0200\ncommitter GitHub <noreply@github.com> 1719910804 +0200\n\nMerge pull request #52251 from rails/fxn/edits\n\nEdits in the dev containers guide"
+            }
+        },
+        "url": "https://api.github.com/repos/rails/rails/commits/738fde4782a1a457341aae54b80fa9844ba73904",
+        "html_url": "https://github.com/rails/rails/commit/738fde4782a1a457341aae54b80fa9844ba73904",
+        "comments_url": "https://api.github.com/repos/rails/rails/commits/738fde4782a1a457341aae54b80fa9844ba73904/comments",
+        "author": {
+            "login": "fxn",
+            "id": 3387,
+            "node_id": "MDQ6VXNlcjMzODc=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3387?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fxn",
+            "html_url": "https://github.com/fxn",
+            "followers_url": "https://api.github.com/users/fxn/followers",
+            "following_url": "https://api.github.com/users/fxn/following{/other_user}",
+            "gists_url": "https://api.github.com/users/fxn/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/fxn/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/fxn/subscriptions",
+            "organizations_url": "https://api.github.com/users/fxn/orgs",
+            "repos_url": "https://api.github.com/users/fxn/repos",
+            "events_url": "https://api.github.com/users/fxn/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/fxn/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "35a4946d1ca77495b516801d5c3dbdc64b5d702b",
+                "url": "https://api.github.com/repos/rails/rails/commits/35a4946d1ca77495b516801d5c3dbdc64b5d702b",
+                "html_url": "https://github.com/rails/rails/commit/35a4946d1ca77495b516801d5c3dbdc64b5d702b"
+            },
+            {
+                "sha": "47a5d067d6dcf60d91da9499235f10bd7289382b",
+                "url": "https://api.github.com/repos/rails/rails/commits/47a5d067d6dcf60d91da9499235f10bd7289382b",
+                "html_url": "https://github.com/rails/rails/commit/47a5d067d6dcf60d91da9499235f10bd7289382b"
+            }
+        ]
+    },
+    {
+        "sha": "47a5d067d6dcf60d91da9499235f10bd7289382b",
+        "node_id": "C_kwDNIULaACg0N2E1ZDA2N2Q2ZGNmNjBkOTFkYTk0OTkyMzVmMTBiZDcyODkzODJi",
+        "commit": {
+            "author": {
+                "name": "Xavier Noria",
+                "email": "fxn@hashref.com",
+                "date": "2024-07-02T08:57:00Z"
+            },
+            "committer": {
+                "name": "Xavier Noria",
+                "email": "fxn@hashref.com",
+                "date": "2024-07-02T08:57:00Z"
+            },
+            "message": "Edits in the dev containers guide",
+            "tree": {
+                "sha": "f9c3693876062b054688ac87b7e46a003f1c3813",
+                "url": "https://api.github.com/repos/rails/rails/git/trees/f9c3693876062b054688ac87b7e46a003f1c3813"
+            },
+            "url": "https://api.github.com/repos/rails/rails/git/commits/47a5d067d6dcf60d91da9499235f10bd7289382b",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/rails/rails/commits/47a5d067d6dcf60d91da9499235f10bd7289382b",
+        "html_url": "https://github.com/rails/rails/commit/47a5d067d6dcf60d91da9499235f10bd7289382b",
+        "comments_url": "https://api.github.com/repos/rails/rails/commits/47a5d067d6dcf60d91da9499235f10bd7289382b/comments",
+        "author": {
+            "login": "fxn",
+            "id": 3387,
+            "node_id": "MDQ6VXNlcjMzODc=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3387?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fxn",
+            "html_url": "https://github.com/fxn",
+            "followers_url": "https://api.github.com/users/fxn/followers",
+            "following_url": "https://api.github.com/users/fxn/following{/other_user}",
+            "gists_url": "https://api.github.com/users/fxn/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/fxn/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/fxn/subscriptions",
+            "organizations_url": "https://api.github.com/users/fxn/orgs",
+            "repos_url": "https://api.github.com/users/fxn/repos",
+            "events_url": "https://api.github.com/users/fxn/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/fxn/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "fxn",
+            "id": 3387,
+            "node_id": "MDQ6VXNlcjMzODc=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3387?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fxn",
+            "html_url": "https://github.com/fxn",
+            "followers_url": "https://api.github.com/users/fxn/followers",
+            "following_url": "https://api.github.com/users/fxn/following{/other_user}",
+            "gists_url": "https://api.github.com/users/fxn/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/fxn/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/fxn/subscriptions",
+            "organizations_url": "https://api.github.com/users/fxn/orgs",
+            "repos_url": "https://api.github.com/users/fxn/repos",
+            "events_url": "https://api.github.com/users/fxn/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/fxn/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "ee97ab24fc1ca9e95cefb11a230b979ab5f20c90",
+                "url": "https://api.github.com/repos/rails/rails/commits/ee97ab24fc1ca9e95cefb11a230b979ab5f20c90",
+                "html_url": "https://github.com/rails/rails/commit/ee97ab24fc1ca9e95cefb11a230b979ab5f20c90"
+            }
+        ]
+    },
+    {
+        "sha": "e5561764577c6f279b70daa64e76ca1a1869deb9",
+        "node_id": "C_kwDNIULaAChlNTU2MTc2NDU3N2M2ZjI3OWI3MGRhYTY0ZTc2Y2ExYTE4NjlkZWI5",
+        "commit": {
+            "author": {
+                "name": "Dakota Dux",
+                "email": "dakota.dux@gmail.com",
+                "date": "2024-07-02T03:46:17Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2024-07-02T03:46:17Z"
+            },
+            "message": "Update initialization.md\n\nThe code block that contains the code in`config/boot.rb` is missing the line that requires bootsnap/setup.",
+            "tree": {
+                "sha": "8f94c37c5b8d0655e98c7049ccc7d3105bae2141",
+                "url": "https://api.github.com/repos/rails/rails/git/trees/8f94c37c5b8d0655e98c7049ccc7d3105bae2141"
+            },
+            "url": "https://api.github.com/repos/rails/rails/git/commits/e5561764577c6f279b70daa64e76ca1a1869deb9",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmg3gJCRC1aQ7uu5UhlAAAYPYQACySmgc0hGPQa0cozy8z8L+1\nEvpYK3Qldynp9dNlvKGYv5N4V8FJI6Scn+7EFfZ2ex5veYLefzysZLPJI+tdkxDU\nHHDWFHN6r6vpKbBuBDpSBL2Ttfj8HD5hoa95cKFCwD7TCGuM4ZuhTDTbhbjw2Sr2\nl62LCEFBQfwozkxrsFepLn7K8/qnB9446e0NrMT/DqTH8zxVzCE1BawdDXykbaxK\nN1gIGzrbkPLX8W6LPdj+BfMFzoWXiIrildVzUPSJ+jruQZDjEz3Z3Nk/zq7KtbdW\nMEuslMdWDFjmUUxtEEvgo5OmxQqVmKVh0dQcRj2rVnhVk71Psr9y3dgPs18NqDpb\n/ECrGuFFeFd7BXltuP0F9mKVSBUZujbxiN+19Br/i2V1OwILogg7VizdMAN2Jv2W\nWE5c6+HDBW1YY9zexpjTpm9JN8A3H95g1fEwHE1Ruc8T4fwGUGrrTiZJ44lZvFy1\nCp9YYKiN7k0ZOiKGKMEHvTwDu0T2AjbXWXDImiuZOuDCUJNTSG3iwxRDAMsdhFvo\n8EyyidfM9IgSHlCdzkrEJ4RSeGU2P1gyqFgqQzclnS+hRaLxsTvOkxFIu9Ii/BOQ\nHeDD0cHKoLr1DnbR2Y9++cx8IKCCV7AMNTCUqlXtinM6VaUhOCVUr+wCrISM1KE4\n8saQWfRpDM+pUzsGA103\n=LJ+Z\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 8f94c37c5b8d0655e98c7049ccc7d3105bae2141\nparent 35a4946d1ca77495b516801d5c3dbdc64b5d702b\nauthor Dakota Dux <dakota.dux@gmail.com> 1719891977 -0500\ncommitter GitHub <noreply@github.com> 1719891977 -0500\n\nUpdate initialization.md\n\nThe code block that contains the code in`config/boot.rb` is missing the line that requires bootsnap/setup."
+            }
+        },
+        "url": "https://api.github.com/repos/rails/rails/commits/e5561764577c6f279b70daa64e76ca1a1869deb9",
+        "html_url": "https://github.com/rails/rails/commit/e5561764577c6f279b70daa64e76ca1a1869deb9",
+        "comments_url": "https://api.github.com/repos/rails/rails/commits/e5561764577c6f279b70daa64e76ca1a1869deb9/comments",
+        "author": {
+            "login": "ddux",
+            "id": 75950,
+            "node_id": "MDQ6VXNlcjc1OTUw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75950?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ddux",
+            "html_url": "https://github.com/ddux",
+            "followers_url": "https://api.github.com/users/ddux/followers",
+            "following_url": "https://api.github.com/users/ddux/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ddux/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ddux/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ddux/subscriptions",
+            "organizations_url": "https://api.github.com/users/ddux/orgs",
+            "repos_url": "https://api.github.com/users/ddux/repos",
+            "events_url": "https://api.github.com/users/ddux/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ddux/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "35a4946d1ca77495b516801d5c3dbdc64b5d702b",
+                "url": "https://api.github.com/repos/rails/rails/commits/35a4946d1ca77495b516801d5c3dbdc64b5d702b",
+                "html_url": "https://github.com/rails/rails/commit/35a4946d1ca77495b516801d5c3dbdc64b5d702b"
+            }
+        ]
+    },
+    {
+        "sha": "35a4946d1ca77495b516801d5c3dbdc64b5d702b",
+        "node_id": "C_kwDNIULaACgzNWE0OTQ2ZDFjYTc3NDk1YjUxNjgwMWQ1YzNkYmRjNjRiNWQ3MDJi",
+        "commit": {
+            "author": {
+                "name": "Aaron Patterson",
+                "email": "aaron@rubyonrails.org",
+                "date": "2024-07-02T00:39:11Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2024-07-02T00:39:11Z"
+            },
+            "message": "Merge pull request #52094 from ioquatix/rack-3-streaming\n\nUtilize Rack 3 streaming.",
+            "tree": {
+                "sha": "78262c0e6219b6169721cc5d1ada83d10d8e352b",
+                "url": "https://api.github.com/repos/rails/rails/git/trees/78262c0e6219b6169721cc5d1ada83d10d8e352b"
+            },
+            "url": "https://api.github.com/repos/rails/rails/git/commits/35a4946d1ca77495b516801d5c3dbdc64b5d702b",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmg0wvCRC1aQ7uu5UhlAAAg5wQAEHQvLwxoV1k63++TZpsfcRj\nU1RnsdEJQ7tQqamkhciRklJOBvQvo2FyP3Rqlhi8kKdNBvwOViCJIllWTWuEx8uK\nrSfaiZDghjHNvQ1ks6Ua/ICQWEk6r4lA0+k1+8DNmV4S0wXK6PpLOLTQB/OXs5QE\nJoVmp5A8fJrLawWzo+3Cx+eLkWF9un5jbxPkgilQy822vg+zGIfYOkyxRHSqkUAL\nnjyOQV9ijT4pwoKux7peFo5EOGRTuJQGGRL/O7dnhaDeeQChaPNJqY2bW6BrmScc\nRMblP0i4eprezfQusBvoE9en36Q+XnaVguC71C4t5CyHLaJDJjvHo8EfA2sYVWXE\nJUsQhkb+w4InEN82oHCEP+KR+ykaP/SKC2AR7Tb/UfKq2Bms9iGk6JsVpD3EOvbZ\no8BfFOHHmqqFq7YhD0ScKaDPTJHyvjMaBhmAaDlIQxirNkoWV7NxPmmB5/jD8ahg\nOv1Xf5/wgTNjdP2HhzZ89YvKe7nxhqU2o4cHb4nEo910zy4x4qTZJ89CA566w4md\nXXRK9eb5XnNTGeQIwVsV8k9ZR5l68ihp35VEo46VnahwhGYFRrx9Nr+Ay0HidEC8\ndTJAGHryB0nyVyVHVRO96MpwysdXZoeWj6JjlPVQcjsB3MgWJ7aBeBPy7tajcadP\nSDJm9ymNuFVqqh6XHcii\n=eKr4\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 78262c0e6219b6169721cc5d1ada83d10d8e352b\nparent 599023dc03790b3c062aa4517854e0da5b25a891\nparent ed68af0f62f4f6b7ee107734d1ab1694f7d104d0\nauthor Aaron Patterson <aaron@rubyonrails.org> 1719880751 -0700\ncommitter GitHub <noreply@github.com> 1719880751 -0700\n\nMerge pull request #52094 from ioquatix/rack-3-streaming\n\nUtilize Rack 3 streaming."
+            }
+        },
+        "url": "https://api.github.com/repos/rails/rails/commits/35a4946d1ca77495b516801d5c3dbdc64b5d702b",
+        "html_url": "https://github.com/rails/rails/commit/35a4946d1ca77495b516801d5c3dbdc64b5d702b",
+        "comments_url": "https://api.github.com/repos/rails/rails/commits/35a4946d1ca77495b516801d5c3dbdc64b5d702b/comments",
+        "author": {
+            "login": "tenderlove",
+            "id": 3124,
+            "node_id": "MDQ6VXNlcjMxMjQ=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3124?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tenderlove",
+            "html_url": "https://github.com/tenderlove",
+            "followers_url": "https://api.github.com/users/tenderlove/followers",
+            "following_url": "https://api.github.com/users/tenderlove/following{/other_user}",
+            "gists_url": "https://api.github.com/users/tenderlove/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/tenderlove/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/tenderlove/subscriptions",
+            "organizations_url": "https://api.github.com/users/tenderlove/orgs",
+            "repos_url": "https://api.github.com/users/tenderlove/repos",
+            "events_url": "https://api.github.com/users/tenderlove/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/tenderlove/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "599023dc03790b3c062aa4517854e0da5b25a891",
+                "url": "https://api.github.com/repos/rails/rails/commits/599023dc03790b3c062aa4517854e0da5b25a891",
+                "html_url": "https://github.com/rails/rails/commit/599023dc03790b3c062aa4517854e0da5b25a891"
+            },
+            {
+                "sha": "ed68af0f62f4f6b7ee107734d1ab1694f7d104d0",
+                "url": "https://api.github.com/repos/rails/rails/commits/ed68af0f62f4f6b7ee107734d1ab1694f7d104d0",
+                "html_url": "https://github.com/rails/rails/commit/ed68af0f62f4f6b7ee107734d1ab1694f7d104d0"
+            }
+        ]
+    },
+    {
+        "sha": "599023dc03790b3c062aa4517854e0da5b25a891",
+        "node_id": "C_kwDNIULaACg1OTkwMjNkYzAzNzkwYjNjMDYyYWE0NTE3ODU0ZTBkYTViMjVhODkx",
+        "commit": {
+            "author": {
+                "name": "Petrik de Heus",
+                "email": "petrik@deheus.net",
+                "date": "2024-07-01T19:47:33Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2024-07-01T19:47:33Z"
+            },
+            "message": "Merge pull request #52217 from neanias/neanias/rework-link-text-for-accessibility-in-migrations-guide\n\nReplace \"here\" link titles with meaningful titles [ci skip]",
+            "tree": {
+                "sha": "de3615e4132ab13aa98fc5edc584ebf244cd8559",
+                "url": "https://api.github.com/repos/rails/rails/git/trees/de3615e4132ab13aa98fc5edc584ebf244cd8559"
+            },
+            "url": "https://api.github.com/repos/rails/rails/git/commits/599023dc03790b3c062aa4517854e0da5b25a891",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmgwfVCRC1aQ7uu5UhlAAAacoQAJzaT6A314UV2QGrStAnhRfJ\n0lfaokNT6Deu8smV3jiEoP+iF8iftkxw6U31xWJS9kQ9Q1IviCpyPHOV3r8kgGh5\ndT3Vidiq8iqXKQ4HYWYszyFuYW1sUnqLsD6a2MbDtP51kJs5qamrrCvqNUEL53DU\nPaOXIywZDB8Z7scK9+mNEeozFOKRi/f8IYHZMfUfcnf2PZlwjq/58KHOSthdanPg\nOKh/jMgXvzQLkHr0pWmcvP3t7SzmZiMRErzwKtt4S4V/q1LULOff8IgwIVGwlCbn\n+kzv9n/syBkus0hAP6e4FtV4n1dNQCgfHr6uSUitQircbOuvSPwq8LB8RkllP31Q\n3OhOTYtNZfXKYDf4tPcevYYQYIjZwO1vw66mvDWjQ1pxbWsFB0zk1DqutD1CVLjM\noN313b/JUSVU3sDRmtGvyU15xlDpqwQU1/nKVAx68X4wIqVE+M2OpHwOwrXKL3kM\nnN9+iCnV0pXDkz+56dlmth4VPmjjZh6wzvn/Yjdrjeu35VFqWyKaX4kDRItc8eL5\nnSPwzNXx0JJlnK8DhYro+70r1Tgv/sUnux/AAQ3kRsqWZvpQgOnyoHIsVBBXQkbt\nHfkYbCX4FmgA9OA7eZczQ102nG088JkN/bfVb5DSu+/XrhLrAOoyUv9ZFAoou906\nolOmp0BGA2p5bW75IknE\n=ofhS\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree de3615e4132ab13aa98fc5edc584ebf244cd8559\nparent ee97ab24fc1ca9e95cefb11a230b979ab5f20c90\nparent 3ae8d7b8632882d442b1e0c8fbadfceee8ccd455\nauthor Petrik de Heus <petrik@deheus.net> 1719863253 +0200\ncommitter GitHub <noreply@github.com> 1719863253 +0200\n\nMerge pull request #52217 from neanias/neanias/rework-link-text-for-accessibility-in-migrations-guide\n\nReplace \"here\" link titles with meaningful titles [ci skip]"
+            }
+        },
+        "url": "https://api.github.com/repos/rails/rails/commits/599023dc03790b3c062aa4517854e0da5b25a891",
+        "html_url": "https://github.com/rails/rails/commit/599023dc03790b3c062aa4517854e0da5b25a891",
+        "comments_url": "https://api.github.com/repos/rails/rails/commits/599023dc03790b3c062aa4517854e0da5b25a891/comments",
+        "author": {
+            "login": "p8",
+            "id": 28561,
+            "node_id": "MDQ6VXNlcjI4NTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/28561?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/p8",
+            "html_url": "https://github.com/p8",
+            "followers_url": "https://api.github.com/users/p8/followers",
+            "following_url": "https://api.github.com/users/p8/following{/other_user}",
+            "gists_url": "https://api.github.com/users/p8/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/p8/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/p8/subscriptions",
+            "organizations_url": "https://api.github.com/users/p8/orgs",
+            "repos_url": "https://api.github.com/users/p8/repos",
+            "events_url": "https://api.github.com/users/p8/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/p8/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "ee97ab24fc1ca9e95cefb11a230b979ab5f20c90",
+                "url": "https://api.github.com/repos/rails/rails/commits/ee97ab24fc1ca9e95cefb11a230b979ab5f20c90",
+                "html_url": "https://github.com/rails/rails/commit/ee97ab24fc1ca9e95cefb11a230b979ab5f20c90"
+            },
+            {
+                "sha": "3ae8d7b8632882d442b1e0c8fbadfceee8ccd455",
+                "url": "https://api.github.com/repos/rails/rails/commits/3ae8d7b8632882d442b1e0c8fbadfceee8ccd455",
+                "html_url": "https://github.com/rails/rails/commit/3ae8d7b8632882d442b1e0c8fbadfceee8ccd455"
+            }
+        ]
+    },
+    {
+        "sha": "3ae8d7b8632882d442b1e0c8fbadfceee8ccd455",
+        "node_id": "C_kwDNIULaACgzYWU4ZDdiODYzMjg4MmQ0NDJiMWUwYzhmYmFkZmNlZWU4Y2NkNDU1",
+        "commit": {
+            "author": {
+                "name": "Will Mathewson",
+                "email": "will@cherub.health",
+                "date": "2024-06-25T16:05:01Z"
+            },
+            "committer": {
+                "name": "William Mathewson",
+                "email": "wncmathewson@me.com",
+                "date": "2024-07-01T19:05:04Z"
+            },
+            "message": "Replace \"here\" link titles with meaningful titles\n\nFor accessibility reasons[1], it's recommended not to use \"here\"/\"click\nhere\"/\"more\" as the title for a link. When screen reader users are\ntabbing through all links on the page, they'll miss the context of \"read\nmore about X\" preceding the \"here\". Thankfully, the sentences in the are\nlargely good to go, so the \"here\" can be dropped in favour of the last\npart of the sentence to give the link title more meaning.\n\nSome of these text changes may seem trivial, but when considering the\nlink text outwith its context sentences, the text has some more meaning\nfor those reading them through screen readers. (e.g. \"API documentation\"\n-> \"`number_to_currency` API documentation\")\n\n[1]: https://www.gov.uk/guidance/content-design/links#writing-link-text",
+            "tree": {
+                "sha": "21f486774a7f1da87809ee12e08e61cb916656be",
+                "url": "https://api.github.com/repos/rails/rails/git/trees/21f486774a7f1da87809ee12e08e61cb916656be"
+            },
+            "url": "https://api.github.com/repos/rails/rails/git/commits/3ae8d7b8632882d442b1e0c8fbadfceee8ccd455",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCAAdFiEElodBxLa35wdnUzomKSVM8payHEcFAmaC/eAACgkQKSVM8pay\nHEeyXg/9HBH7M47MDl2Z++w5zSSnGBbzmSIfawDsXkO8ibVDptZWzugHNlq0XEWa\n11XFVdWjGhAtWUql5Ez1nPE7kl0pDXyOWtCnViu4oYubJ1/jsOx5GduJ5oAuEcgD\nncd5p9dqBoAEKXqjUQL+zeTDtetP/F2Fs1JuNnQh9zeI5KngBxuBEfIzSyhp9PAA\nwTMYZCJxAREOILWspW10GNK7Y978aa6LxyZqMETr7KT91qbI1blGy3FBQo1QFPuX\nKWYhZNeFgK5B56bsw8lUSp0hlohfMxe3rg4jSTMGJ9VgRFd5jQ1sS9sH466GV3tq\nSiiOhslJE1piIDsI/wCGeJnO5UisTbJgginm6f+2qln81CjtIbKTnXABaZsvIo1U\nIc6AK9Q3DGGKMv2MQzl1jExGebRZf8DvzTSkLvOqXPgV6TJ6lvd/4Sia/tz2OjZj\nIygJWCHvWw1abby5TXI09IH0pC2OBnlhWdlMEJJIe+/JB7xgLoP99Mr6UNXmfgwA\ntGOrYmY14RuR2D/5pDXxeSPj3Mfng1IQ2CrNV9BsdpdFN0txj0i1CTqGw1OT6b0z\n/QqhWcFccxinNJn75L0ip79FhmhwBo8nFsdX5FIMAgaiyMOx1E/6Cxu773EwUAbO\nvhD29/H9fXwKZ9+oMM4DuZ0yMcMU/l0ELvnfjK3/qX1ttKmuLlE=\n=TEXA\n-----END PGP SIGNATURE-----",
+                "payload": "tree 21f486774a7f1da87809ee12e08e61cb916656be\nparent d43ee2088118425e493766aeb20575e9ce7159d1\nauthor Will Mathewson <will@cherub.health> 1719331501 +0100\ncommitter William Mathewson <wncmathewson@me.com> 1719860704 +0100\n\nReplace \"here\" link titles with meaningful titles\n\nFor accessibility reasons[1], it's recommended not to use \"here\"/\"click\nhere\"/\"more\" as the title for a link. When screen reader users are\ntabbing through all links on the page, they'll miss the context of \"read\nmore about X\" preceding the \"here\". Thankfully, the sentences in the are\nlargely good to go, so the \"here\" can be dropped in favour of the last\npart of the sentence to give the link title more meaning.\n\nSome of these text changes may seem trivial, but when considering the\nlink text outwith its context sentences, the text has some more meaning\nfor those reading them through screen readers. (e.g. \"API documentation\"\n-> \"`number_to_currency` API documentation\")\n\n[1]: https://www.gov.uk/guidance/content-design/links#writing-link-text\n"
+            }
+        },
+        "url": "https://api.github.com/repos/rails/rails/commits/3ae8d7b8632882d442b1e0c8fbadfceee8ccd455",
+        "html_url": "https://github.com/rails/rails/commit/3ae8d7b8632882d442b1e0c8fbadfceee8ccd455",
+        "comments_url": "https://api.github.com/repos/rails/rails/commits/3ae8d7b8632882d442b1e0c8fbadfceee8ccd455/comments",
+        "author": {
+            "login": "neanias",
+            "id": 5786847,
+            "node_id": "MDQ6VXNlcjU3ODY4NDc=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5786847?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/neanias",
+            "html_url": "https://github.com/neanias",
+            "followers_url": "https://api.github.com/users/neanias/followers",
+            "following_url": "https://api.github.com/users/neanias/following{/other_user}",
+            "gists_url": "https://api.github.com/users/neanias/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/neanias/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/neanias/subscriptions",
+            "organizations_url": "https://api.github.com/users/neanias/orgs",
+            "repos_url": "https://api.github.com/users/neanias/repos",
+            "events_url": "https://api.github.com/users/neanias/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/neanias/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "neanias",
+            "id": 5786847,
+            "node_id": "MDQ6VXNlcjU3ODY4NDc=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5786847?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/neanias",
+            "html_url": "https://github.com/neanias",
+            "followers_url": "https://api.github.com/users/neanias/followers",
+            "following_url": "https://api.github.com/users/neanias/following{/other_user}",
+            "gists_url": "https://api.github.com/users/neanias/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/neanias/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/neanias/subscriptions",
+            "organizations_url": "https://api.github.com/users/neanias/orgs",
+            "repos_url": "https://api.github.com/users/neanias/repos",
+            "events_url": "https://api.github.com/users/neanias/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/neanias/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "d43ee2088118425e493766aeb20575e9ce7159d1",
+                "url": "https://api.github.com/repos/rails/rails/commits/d43ee2088118425e493766aeb20575e9ce7159d1",
+                "html_url": "https://github.com/rails/rails/commit/d43ee2088118425e493766aeb20575e9ce7159d1"
+            }
+        ]
+    },
+    {
+        "sha": "ee97ab24fc1ca9e95cefb11a230b979ab5f20c90",
+        "node_id": "C_kwDNIULaAChlZTk3YWIyNGZjMWNhOWU5NWNlZmIxMWEyMzBiOTc5YWI1ZjIwYzkw",
+        "commit": {
+            "author": {
+                "name": "Petrik de Heus",
+                "email": "petrik@deheus.net",
+                "date": "2024-07-01T19:01:00Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2024-07-01T19:01:00Z"
+            },
+            "message": "Merge pull request #52246 from heka1024/immutable-http-cache-doc [ci-skip]\n\nDocument `immutable` option in `expires_in`",
+            "tree": {
+                "sha": "2d7cab374f6769a91a565cb54570ff59cd565691",
+                "url": "https://api.github.com/repos/rails/rails/git/trees/2d7cab374f6769a91a565cb54570ff59cd565691"
+            },
+            "url": "https://api.github.com/repos/rails/rails/git/commits/ee97ab24fc1ca9e95cefb11a230b979ab5f20c90",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmgvzsCRC1aQ7uu5UhlAAARtMQAKIknmSJapAIhqzh+7OF3ATa\n7Gi+r4YXDyidM3Ew1gZCQH1zlAR1vdTNTgtKdMPAF3u2X2dqEdk0/fgzaiXCgksP\n86Fc9yeAskhTHOIIjZzKAnG3BR0jC4iODlOsybVb5wu1dw8P38o0XZbLjYvYRzEi\nxkpb4JaJR8dLn+mCgRFz7neHNe9X6nciD3lnu1m7+wdtnxZ2Sw/b35AEFlxrqHGu\nPMs5n9xQXDiZMpI5puAfxMfMqeVBGWUvT76eMcpKpCRM3ApVO16tdJ1TivAHzAgs\ntnUq7wjKqo7QHxEzhlW53GRoJ/FQflExb4pNI/u+0GOHfOi+qWMxxg/IsZvMXp+E\nQLpmu7wYqtlb1zVlhRoV3oBWA8oUrIsixBwNBf2mzlR+GeiAvNppmW+/AMp/wge3\nmAYQzvc6o3E/svAi9VR71iHy/llx3vxxmCVC95ISDS91nBN3NDSbRbMkjAT+9DMb\n4S8R69mPx2MNp2ZC/4drsx0/ggVaFahoPa+8le8cZwYdpehR9up8sqsEY+h6+tLo\ni4sicE1GTe0TFs0gmWcAovDFkncA/03fTu+LCn3kQdXlLz51VvPK/khjQA0WCESZ\nZ7+orSxRtV5nGHSEXKFSNKJ/5YkWU6NTNvA/ylo/r7Ym6+pUs8uh6BOr9IHxcF24\nTEOUnPDFDDVvk9KYsOvT\n=6dct\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 2d7cab374f6769a91a565cb54570ff59cd565691\nparent d43ee2088118425e493766aeb20575e9ce7159d1\nparent a1a0931e1331bec2dc8642018153acf5d57725c1\nauthor Petrik de Heus <petrik@deheus.net> 1719860460 +0200\ncommitter GitHub <noreply@github.com> 1719860460 +0200\n\nMerge pull request #52246 from heka1024/immutable-http-cache-doc [ci-skip]\n\nDocument `immutable` option in `expires_in`"
+            }
+        },
+        "url": "https://api.github.com/repos/rails/rails/commits/ee97ab24fc1ca9e95cefb11a230b979ab5f20c90",
+        "html_url": "https://github.com/rails/rails/commit/ee97ab24fc1ca9e95cefb11a230b979ab5f20c90",
+        "comments_url": "https://api.github.com/repos/rails/rails/commits/ee97ab24fc1ca9e95cefb11a230b979ab5f20c90/comments",
+        "author": {
+            "login": "p8",
+            "id": 28561,
+            "node_id": "MDQ6VXNlcjI4NTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/28561?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/p8",
+            "html_url": "https://github.com/p8",
+            "followers_url": "https://api.github.com/users/p8/followers",
+            "following_url": "https://api.github.com/users/p8/following{/other_user}",
+            "gists_url": "https://api.github.com/users/p8/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/p8/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/p8/subscriptions",
+            "organizations_url": "https://api.github.com/users/p8/orgs",
+            "repos_url": "https://api.github.com/users/p8/repos",
+            "events_url": "https://api.github.com/users/p8/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/p8/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "d43ee2088118425e493766aeb20575e9ce7159d1",
+                "url": "https://api.github.com/repos/rails/rails/commits/d43ee2088118425e493766aeb20575e9ce7159d1",
+                "html_url": "https://github.com/rails/rails/commit/d43ee2088118425e493766aeb20575e9ce7159d1"
+            },
+            {
+                "sha": "a1a0931e1331bec2dc8642018153acf5d57725c1",
+                "url": "https://api.github.com/repos/rails/rails/commits/a1a0931e1331bec2dc8642018153acf5d57725c1",
+                "html_url": "https://github.com/rails/rails/commit/a1a0931e1331bec2dc8642018153acf5d57725c1"
+            }
+        ]
+    },
+    {
+        "sha": "a1a0931e1331bec2dc8642018153acf5d57725c1",
+        "node_id": "C_kwDNIULaAChhMWEwOTMxZTEzMzFiZWMyZGM4NjQyMDE4MTUzYWNmNWQ1NzcyNWMx",
+        "commit": {
+            "author": {
+                "name": "heka1024",
+                "email": "heka1024@gmail.com",
+                "date": "2024-07-01T18:33:21Z"
+            },
+            "committer": {
+                "name": "heka1024",
+                "email": "heka1024@gmail.com",
+                "date": "2024-07-01T18:33:21Z"
+            },
+            "message": "Document `immutable` option in `expires_in`",
+            "tree": {
+                "sha": "2d7cab374f6769a91a565cb54570ff59cd565691",
+                "url": "https://api.github.com/repos/rails/rails/git/trees/2d7cab374f6769a91a565cb54570ff59cd565691"
+            },
+            "url": "https://api.github.com/repos/rails/rails/git/commits/a1a0931e1331bec2dc8642018153acf5d57725c1",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/rails/rails/commits/a1a0931e1331bec2dc8642018153acf5d57725c1",
+        "html_url": "https://github.com/rails/rails/commit/a1a0931e1331bec2dc8642018153acf5d57725c1",
+        "comments_url": "https://api.github.com/repos/rails/rails/commits/a1a0931e1331bec2dc8642018153acf5d57725c1/comments",
+        "author": {
+            "login": "heka1024",
+            "id": 44280450,
+            "node_id": "MDQ6VXNlcjQ0MjgwNDUw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44280450?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/heka1024",
+            "html_url": "https://github.com/heka1024",
+            "followers_url": "https://api.github.com/users/heka1024/followers",
+            "following_url": "https://api.github.com/users/heka1024/following{/other_user}",
+            "gists_url": "https://api.github.com/users/heka1024/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/heka1024/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/heka1024/subscriptions",
+            "organizations_url": "https://api.github.com/users/heka1024/orgs",
+            "repos_url": "https://api.github.com/users/heka1024/repos",
+            "events_url": "https://api.github.com/users/heka1024/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/heka1024/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "heka1024",
+            "id": 44280450,
+            "node_id": "MDQ6VXNlcjQ0MjgwNDUw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44280450?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/heka1024",
+            "html_url": "https://github.com/heka1024",
+            "followers_url": "https://api.github.com/users/heka1024/followers",
+            "following_url": "https://api.github.com/users/heka1024/following{/other_user}",
+            "gists_url": "https://api.github.com/users/heka1024/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/heka1024/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/heka1024/subscriptions",
+            "organizations_url": "https://api.github.com/users/heka1024/orgs",
+            "repos_url": "https://api.github.com/users/heka1024/repos",
+            "events_url": "https://api.github.com/users/heka1024/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/heka1024/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "d43ee2088118425e493766aeb20575e9ce7159d1",
+                "url": "https://api.github.com/repos/rails/rails/commits/d43ee2088118425e493766aeb20575e9ce7159d1",
+                "html_url": "https://github.com/rails/rails/commit/d43ee2088118425e493766aeb20575e9ce7159d1"
+            }
+        ]
+    },
+    {
+        "sha": "d43ee2088118425e493766aeb20575e9ce7159d1",
+        "node_id": "C_kwDNIULaAChkNDNlZTIwODgxMTg0MjVlNDkzNzY2YWViMjA1NzVlOWNlNzE1OWQx",
+        "commit": {
+            "author": {
+                "name": "Jean Boussier",
+                "email": "jean.boussier@gmail.com",
+                "date": "2024-06-30T07:55:26Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2024-06-30T07:55:26Z"
+            },
+            "message": "Merge pull request #52234 from kwstannard/indifferent\n\nrefactor HashWithIndifferentAccess#to_hash",
+            "tree": {
+                "sha": "785d15dd8d7c726bfccffedc5dbe4bc8cc02750c",
+                "url": "https://api.github.com/repos/rails/rails/git/trees/785d15dd8d7c726bfccffedc5dbe4bc8cc02750c"
+            },
+            "url": "https://api.github.com/repos/rails/rails/git/commits/d43ee2088118425e493766aeb20575e9ce7159d1",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmgQ9uCRC1aQ7uu5UhlAAApL4QABhZhrSz7j+TWi7fPrK9QVGe\nDtazyOo/QTYsgBk/AjXrlrfG7ded5glz6Q+NoRHo1FxUOr/qzI/4mM8enEe9H1eF\nL6hw5ATwneQYmvoDSUliYdXQ5graEhO0oE6BuSWO7jkip/OasHWORr8IaO26NOPi\nyPEEs+32g0Akg1GFjU9y8cXu8Vy6cR15d5WM4gyAsKaZqqDl88N5Dgistdtq9NMf\nQEBiwMc+qWcM9jBbDZ07QF2OX7byQWDezLs43fNX5vWrNFWvwpMMpWpVXshxwIVx\nnojvznfckBa8ZvNHhrF3lUiPjJY7Gwsy7VoyPSBzsgKjikRYWVZvDxzjqt/j0LCp\nva7zM22wNOjvD5xTAVIFPsAher072kFOTX7WVuzE6Df2zTlaWJXFL19lLAg0SoDY\npaJLUe9qltGthSD6ouZDucrfQypCPojE9Ql5/3VRy8XIDq6qfwJ80AY+NzU2gjKa\nt9ofIr8+8OVKqm8AXJ2g4yIF/D3Qf563l0JUK9HmZLbOUSzBnX7+zFGbcSMTFFzk\nfHNUk9ckBO/4RfCt21+rWiV4EFyDEWqxqq6gexhx4HDOsdDe3n/dbzfaIn2TDS+9\nOv4rWQIhnKsY2IuBFctFWGU5uCTVezSXWapUO+y9rm2Y4gpx0Ti0ZF0hjEdYP/y8\nrkZ68CcO1sVu86+03jH8\n=UcNP\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 785d15dd8d7c726bfccffedc5dbe4bc8cc02750c\nparent 88924dd9d4e40d7548596d16265346a65552a142\nparent ed5d64612785cbd873361c0cbfe4cee757bca82d\nauthor Jean Boussier <jean.boussier@gmail.com> 1719734126 +0200\ncommitter GitHub <noreply@github.com> 1719734126 +0200\n\nMerge pull request #52234 from kwstannard/indifferent\n\nrefactor HashWithIndifferentAccess#to_hash"
+            }
+        },
+        "url": "https://api.github.com/repos/rails/rails/commits/d43ee2088118425e493766aeb20575e9ce7159d1",
+        "html_url": "https://github.com/rails/rails/commit/d43ee2088118425e493766aeb20575e9ce7159d1",
+        "comments_url": "https://api.github.com/repos/rails/rails/commits/d43ee2088118425e493766aeb20575e9ce7159d1/comments",
+        "author": {
+            "login": "byroot",
+            "id": 44640,
+            "node_id": "MDQ6VXNlcjQ0NjQw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44640?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/byroot",
+            "html_url": "https://github.com/byroot",
+            "followers_url": "https://api.github.com/users/byroot/followers",
+            "following_url": "https://api.github.com/users/byroot/following{/other_user}",
+            "gists_url": "https://api.github.com/users/byroot/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/byroot/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/byroot/subscriptions",
+            "organizations_url": "https://api.github.com/users/byroot/orgs",
+            "repos_url": "https://api.github.com/users/byroot/repos",
+            "events_url": "https://api.github.com/users/byroot/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/byroot/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "88924dd9d4e40d7548596d16265346a65552a142",
+                "url": "https://api.github.com/repos/rails/rails/commits/88924dd9d4e40d7548596d16265346a65552a142",
+                "html_url": "https://github.com/rails/rails/commit/88924dd9d4e40d7548596d16265346a65552a142"
+            },
+            {
+                "sha": "ed5d64612785cbd873361c0cbfe4cee757bca82d",
+                "url": "https://api.github.com/repos/rails/rails/commits/ed5d64612785cbd873361c0cbfe4cee757bca82d",
+                "html_url": "https://github.com/rails/rails/commit/ed5d64612785cbd873361c0cbfe4cee757bca82d"
+            }
+        ]
+    },
+    {
+        "sha": "ed5d64612785cbd873361c0cbfe4cee757bca82d",
+        "node_id": "C_kwDNIULaAChlZDVkNjQ2MTI3ODVjYmQ4NzMzNjFjMGNiZmU0Y2VlNzU3YmNhODJk",
+        "commit": {
+            "author": {
+                "name": "Kelly Wolf Stannard",
+                "email": "kelly.stannard@andros.co",
+                "date": "2024-06-28T21:13:31Z"
+            },
+            "committer": {
+                "name": "Jean Boussier",
+                "email": "jean.boussier@gmail.com",
+                "date": "2024-06-30T07:33:55Z"
+            },
+            "message": "Optimize HashWithIndifferentAccess#to_hash\n\nCreating a copy by starting from an empty hash and inserting\nkeys one by one is inneficient because unless the hash is\nvery small, Ruby will have to reallocate the hash multiple\ntimes until it reaches the same saize as the original.\n\nAnd every time it happens, keys will have to be re-hashes.\n\nWhile we're at it, instead of using the generic `convert_value`\nwe define a dedicated method which saves on needless checks.\n\nCo-Authored-By: Jean Boussier <jean.boussier@gmail.com>\n\n```ruby\n\nrequire \"bundler/inline\"\n\ngemfile(true) do\n  source \"https://rubygems.org\"\n\n  gem \"activesupport\", path: '.'\n  gem 'benchmark-ips'\n  gem 'benchmark-memory'\nend\n\nrequire \"active_support\"\nrequire \"active_support/core_ext/hash/indifferent_access\"\nrequire 'benchmark/ips'\n\nmodule ActiveSupport\n  class KwstannardHWIA < HashWithIndifferentAccess\n    def to_hash\n      Hash[self]\n        .transform_values! { |v| convert_value(v, conversion: :to_hash) }\n        .tap { |h| set_defaults(h) }\n    end\n  end\n\n  class ByrootHWIA < HashWithIndifferentAccess\n    def to_hash\n      copy = Hash[self]\n      copy.transform_values! { |v| convert_value_to_hash(v) }\n      set_defaults(copy)\n      copy\n    end\n\n    private\n\n    def convert_value_to_hash(value)\n      if value.is_a? Hash\n        value.to_hash\n      elsif value.is_a?(Array)\n        value.map { |e| convert_value_to_hash(e) }\n      else\n        value\n      end\n    end\n  end\nend\n\nflat = Hash[(1..9).to_a.product([1])]\nflat_baseline = ActiveSupport::HashWithIndifferentAccess.new(flat)\nflat_k = ActiveSupport::KwstannardHWIA.new(flat)\nflat_b = ActiveSupport::ByrootHWIA.new(flat)\n\nBenchmark.ips do |x|\n  x.report(\"original\") { flat_baseline.to_hash }\n  x.report(\"kwstannard\") { flat_k.to_hash }\n  x.report(\"byroot\") { flat_b.to_hash }\n  x.compare!(order: :baseline)\nend\n\nlong_flat = Hash[(1..100).to_a.product([1])]\nlong_flat_baseline = ActiveSupport::HashWithIndifferentAccess.new(long_flat)\nlong_flat_k = ActiveSupport::KwstannardHWIA.new(long_flat)\nlong_flat_b = ActiveSupport::ByrootHWIA.new(long_flat)\n\nBenchmark.ips do |x|\n  x.report(\"original\") { long_flat_baseline.to_hash }\n  x.report(\"kwstannard\") { long_flat_k.to_hash }\n  x.report(\"byroot\") { long_flat_b.to_hash }\n  x.compare!(order: :baseline)\nend\n\ndeep_baseline = ActiveSupport::HashWithIndifferentAccess.new(flat.dup)\n3.times.reduce(deep_baseline) { |deep, _| deep[:deep] = ActiveSupport::HashWithIndifferentAccess.new(flat.dup) }\n\ndeep_k = ActiveSupport::KwstannardHWIA.new(flat.dup)\n3.times.reduce(deep_k) { |deep, _| deep[:deep] = ActiveSupport::KwstannardHWIA.new(flat.dup) }\n\ndeep_b = ActiveSupport::ByrootHWIA.new(flat.dup)\n3.times.reduce(deep_b) { |deep, _| deep[:deep] = ActiveSupport::ByrootHWIA.new(flat.dup) }\n\nBenchmark.ips do |x|\n  x.report(\"original\") { deep_baseline.to_hash }\n  x.report(\"kwstannard\") { deep_k.to_hash }\n  x.report(\"byroot\") { deep_b.to_hash }\n  x.compare!(order: :baseline)\nend\n\n```\n\n```\n$ ruby /tmp/to_hash.rb\nFetching gem metadata from https://rubygems.org/..........\nResolving dependencies...\nruby 3.3.1 (2024-04-23 revision c56cd86388) [arm64-darwin23]\nWarming up --------------------------------------\n            original    92.830k i/100ms\n          kwstannard   125.443k i/100ms\n              byroot   139.810k i/100ms\nCalculating -------------------------------------\n            original    968.200k (\u00b1 2.9%) i/s -      4.920M in   5.086600s\n          kwstannard      1.268M (\u00b1 2.9%) i/s -      6.398M in   5.049545s\n              byroot      1.397M (\u00b1 2.9%) i/s -      6.990M in   5.008404s\n\nComparison:\n            original:   968200.3 i/s\n              byroot:  1397069.4 i/s - 1.44x  faster\n          kwstannard:  1268207.5 i/s - 1.31x  faster\n\nruby 3.3.1 (2024-04-23 revision c56cd86388) [arm64-darwin23]\nWarming up --------------------------------------\n            original    11.051k i/100ms\n          kwstannard    15.865k i/100ms\n              byroot    17.778k i/100ms\nCalculating -------------------------------------\n            original    109.059k (\u00b1 5.1%) i/s -    552.550k in   5.082820s\n          kwstannard    157.499k (\u00b1 7.4%) i/s -    793.250k in   5.072103s\n              byroot    177.066k (\u00b1 7.2%) i/s -    888.900k in   5.052601s\n\nComparison:\n            original:   109059.1 i/s\n              byroot:   177065.9 i/s - 1.62x  faster\n          kwstannard:   157499.0 i/s - 1.44x  faster\n\nruby 3.3.1 (2024-04-23 revision c56cd86388) [arm64-darwin23]\nWarming up --------------------------------------\n            original    22.249k i/100ms\n          kwstannard    30.132k i/100ms\n              byroot    34.116k i/100ms\nCalculating -------------------------------------\n            original    224.127k (\u00b1 1.7%) i/s -      1.135M in   5.064253s\n          kwstannard    295.912k (\u00b1 5.9%) i/s -      1.476M in   5.007324s\n              byroot    343.225k (\u00b1 1.7%) i/s -      1.740M in   5.070715s\n\nComparison:\n            original:   224127.0 i/s\n              byroot:   343224.6 i/s - 1.53x  faster\n          kwstannard:   295912.4 i/s - 1.32x  faster\n```",
+            "tree": {
+                "sha": "1e334c0ef2494fad84a7fb956ae08f7509da636f",
+                "url": "https://api.github.com/repos/rails/rails/git/trees/1e334c0ef2494fad84a7fb956ae08f7509da636f"
+            },
+            "url": "https://api.github.com/repos/rails/rails/git/commits/ed5d64612785cbd873361c0cbfe4cee757bca82d",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/rails/rails/commits/ed5d64612785cbd873361c0cbfe4cee757bca82d",
+        "html_url": "https://github.com/rails/rails/commit/ed5d64612785cbd873361c0cbfe4cee757bca82d",
+        "comments_url": "https://api.github.com/repos/rails/rails/commits/ed5d64612785cbd873361c0cbfe4cee757bca82d/comments",
+        "author": {
+            "login": "kwstannard",
+            "id": 1151753,
+            "node_id": "MDQ6VXNlcjExNTE3NTM=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1151753?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kwstannard",
+            "html_url": "https://github.com/kwstannard",
+            "followers_url": "https://api.github.com/users/kwstannard/followers",
+            "following_url": "https://api.github.com/users/kwstannard/following{/other_user}",
+            "gists_url": "https://api.github.com/users/kwstannard/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/kwstannard/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/kwstannard/subscriptions",
+            "organizations_url": "https://api.github.com/users/kwstannard/orgs",
+            "repos_url": "https://api.github.com/users/kwstannard/repos",
+            "events_url": "https://api.github.com/users/kwstannard/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/kwstannard/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "byroot",
+            "id": 44640,
+            "node_id": "MDQ6VXNlcjQ0NjQw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44640?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/byroot",
+            "html_url": "https://github.com/byroot",
+            "followers_url": "https://api.github.com/users/byroot/followers",
+            "following_url": "https://api.github.com/users/byroot/following{/other_user}",
+            "gists_url": "https://api.github.com/users/byroot/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/byroot/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/byroot/subscriptions",
+            "organizations_url": "https://api.github.com/users/byroot/orgs",
+            "repos_url": "https://api.github.com/users/byroot/repos",
+            "events_url": "https://api.github.com/users/byroot/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/byroot/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "6045f257fbbff039edb2542c9859488cec0dcaa9",
+                "url": "https://api.github.com/repos/rails/rails/commits/6045f257fbbff039edb2542c9859488cec0dcaa9",
+                "html_url": "https://github.com/rails/rails/commit/6045f257fbbff039edb2542c9859488cec0dcaa9"
+            }
+        ]
+    },
+    {
+        "sha": "88924dd9d4e40d7548596d16265346a65552a142",
+        "node_id": "C_kwDNIULaACg4ODkyNGRkOWQ0ZTQwZDc1NDg1OTZkMTYyNjUzNDZhNjU1NTJhMTQy",
+        "commit": {
+            "author": {
+                "name": "Ryuta Kamizono",
+                "email": "kamipo@gmail.com",
+                "date": "2024-06-29T14:26:31Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2024-06-29T14:26:31Z"
+            },
+            "message": "Merge pull request #52236 from takmar/fix-broken-link-in-dev-containers-guide\n\nFix broken links in Dev Containers start guide [ci skip]",
+            "tree": {
+                "sha": "2fb60d5ba706f29fd7e581ca41a96f60863086fa",
+                "url": "https://api.github.com/repos/rails/rails/git/trees/2fb60d5ba706f29fd7e581ca41a96f60863086fa"
+            },
+            "url": "https://api.github.com/repos/rails/rails/git/commits/88924dd9d4e40d7548596d16265346a65552a142",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmgBmXCRC1aQ7uu5UhlAAAgqQQAG50R3n2nGkEjer9rReGIkpw\n+L8yQcRGCn+mNXpzg3Uo9D0HtlpKCnw/kXV7mYg+nzKqo+DbYw4b7PvYXWwSy70t\nq22a8L0Aws3efRYOYxT7A2bzxNayVkNWzzugmXiqSIiODSBZn20Aas/QT17VaO43\nT38T/+vh1Otv7lcUTNuEDQOU15+lMjAdtrEO4AYJvXjMhI2wFYzJowg4lRDlyAdc\naoTmFyKyWpHjS+FBH1AmUvTwakVXE7JibjQekCoNuLC/dYAPCtx2ApsE8pmcb3zW\n5BHS2fi+eO/+wCSLjOqmpoWzlLyGTVyemmIWzkV3pM2IG9wwGHYW39Xmhv+tK4K0\nWr6zM1QpgA6g5Am8b1HsibxIhbXLxSIg5gY8htkyqXLMLg7/5X43mJiEfIxs8pM+\nG5tHPQGZ/9F0YEUBo1sAupFV0Nbw3J8qlKjWQSFlx3XxudB+EfzKNtCWrYUjGJV3\nCIqxlubLJeNHn7q+3+qnJENfJ7SIa8R8V28KtCEls+Qi0tYZRJ0brmdk+6zRfbPg\nBBPX1fahCJzllK5Ja3rTSpFiRLSJyQ5or3rC0Uy+qagYAMsEpCYlZZCW3fMPWgd9\nYKFnXDN+l86ALMr5qcRHCoQcRXqXhWwv5YjywOE3utlgOqYbl79DnEvrXfRxuUCw\nyDc2z0vXRfQOiCOPMuJD\n=cT9I\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 2fb60d5ba706f29fd7e581ca41a96f60863086fa\nparent d2b739c3c89034cd48c5b4eaf60cc4b37a89f887\nparent ee2c283eb3bd9518cf61c97bfd957372cea3a9db\nauthor Ryuta Kamizono <kamipo@gmail.com> 1719671191 +0900\ncommitter GitHub <noreply@github.com> 1719671191 +0900\n\nMerge pull request #52236 from takmar/fix-broken-link-in-dev-containers-guide\n\nFix broken links in Dev Containers start guide [ci skip]"
+            }
+        },
+        "url": "https://api.github.com/repos/rails/rails/commits/88924dd9d4e40d7548596d16265346a65552a142",
+        "html_url": "https://github.com/rails/rails/commit/88924dd9d4e40d7548596d16265346a65552a142",
+        "comments_url": "https://api.github.com/repos/rails/rails/commits/88924dd9d4e40d7548596d16265346a65552a142/comments",
+        "author": {
+            "login": "kamipo",
+            "id": 12642,
+            "node_id": "MDQ6VXNlcjEyNjQy",
+            "avatar_url": "https://avatars.githubusercontent.com/u/12642?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kamipo",
+            "html_url": "https://github.com/kamipo",
+            "followers_url": "https://api.github.com/users/kamipo/followers",
+            "following_url": "https://api.github.com/users/kamipo/following{/other_user}",
+            "gists_url": "https://api.github.com/users/kamipo/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/kamipo/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/kamipo/subscriptions",
+            "organizations_url": "https://api.github.com/users/kamipo/orgs",
+            "repos_url": "https://api.github.com/users/kamipo/repos",
+            "events_url": "https://api.github.com/users/kamipo/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/kamipo/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "d2b739c3c89034cd48c5b4eaf60cc4b37a89f887",
+                "url": "https://api.github.com/repos/rails/rails/commits/d2b739c3c89034cd48c5b4eaf60cc4b37a89f887",
+                "html_url": "https://github.com/rails/rails/commit/d2b739c3c89034cd48c5b4eaf60cc4b37a89f887"
+            },
+            {
+                "sha": "ee2c283eb3bd9518cf61c97bfd957372cea3a9db",
+                "url": "https://api.github.com/repos/rails/rails/commits/ee2c283eb3bd9518cf61c97bfd957372cea3a9db",
+                "html_url": "https://github.com/rails/rails/commit/ee2c283eb3bd9518cf61c97bfd957372cea3a9db"
+            }
+        ]
+    },
+    {
+        "sha": "ee2c283eb3bd9518cf61c97bfd957372cea3a9db",
+        "node_id": "C_kwDNIULaAChlZTJjMjgzZWIzYmQ5NTE4Y2Y2MWM5N2JmZDk1NzM3MmNlYTNhOWRi",
+        "commit": {
+            "author": {
+                "name": "takmar",
+                "email": "tak.btbb@gmail.com",
+                "date": "2024-06-29T11:31:18Z"
+            },
+            "committer": {
+                "name": "takmar",
+                "email": "tak.btbb@gmail.com",
+                "date": "2024-06-29T11:31:18Z"
+            },
+            "message": "Fix broken links in Dev Containers start guide",
+            "tree": {
+                "sha": "2fb60d5ba706f29fd7e581ca41a96f60863086fa",
+                "url": "https://api.github.com/repos/rails/rails/git/trees/2fb60d5ba706f29fd7e581ca41a96f60863086fa"
+            },
+            "url": "https://api.github.com/repos/rails/rails/git/commits/ee2c283eb3bd9518cf61c97bfd957372cea3a9db",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/rails/rails/commits/ee2c283eb3bd9518cf61c97bfd957372cea3a9db",
+        "html_url": "https://github.com/rails/rails/commit/ee2c283eb3bd9518cf61c97bfd957372cea3a9db",
+        "comments_url": "https://api.github.com/repos/rails/rails/commits/ee2c283eb3bd9518cf61c97bfd957372cea3a9db/comments",
+        "author": {
+            "login": "takmar",
+            "id": 26132902,
+            "node_id": "MDQ6VXNlcjI2MTMyOTAy",
+            "avatar_url": "https://avatars.githubusercontent.com/u/26132902?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/takmar",
+            "html_url": "https://github.com/takmar",
+            "followers_url": "https://api.github.com/users/takmar/followers",
+            "following_url": "https://api.github.com/users/takmar/following{/other_user}",
+            "gists_url": "https://api.github.com/users/takmar/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/takmar/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/takmar/subscriptions",
+            "organizations_url": "https://api.github.com/users/takmar/orgs",
+            "repos_url": "https://api.github.com/users/takmar/repos",
+            "events_url": "https://api.github.com/users/takmar/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/takmar/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "takmar",
+            "id": 26132902,
+            "node_id": "MDQ6VXNlcjI2MTMyOTAy",
+            "avatar_url": "https://avatars.githubusercontent.com/u/26132902?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/takmar",
+            "html_url": "https://github.com/takmar",
+            "followers_url": "https://api.github.com/users/takmar/followers",
+            "following_url": "https://api.github.com/users/takmar/following{/other_user}",
+            "gists_url": "https://api.github.com/users/takmar/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/takmar/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/takmar/subscriptions",
+            "organizations_url": "https://api.github.com/users/takmar/orgs",
+            "repos_url": "https://api.github.com/users/takmar/repos",
+            "events_url": "https://api.github.com/users/takmar/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/takmar/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "d2b739c3c89034cd48c5b4eaf60cc4b37a89f887",
+                "url": "https://api.github.com/repos/rails/rails/commits/d2b739c3c89034cd48c5b4eaf60cc4b37a89f887",
+                "html_url": "https://github.com/rails/rails/commit/d2b739c3c89034cd48c5b4eaf60cc4b37a89f887"
+            }
+        ]
+    },
+    {
+        "sha": "d2b739c3c89034cd48c5b4eaf60cc4b37a89f887",
+        "node_id": "C_kwDNIULaAChkMmI3MzljM2M4OTAzNGNkNDhjNWI0ZWFmNjBjYzRiMzdhODlmODg3",
+        "commit": {
+            "author": {
+                "name": "Jean Boussier",
+                "email": "jean.boussier@gmail.com",
+                "date": "2024-06-29T08:52:09Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2024-06-29T08:52:09Z"
+            },
+            "message": "Merge pull request #52235 from fatkodima/fix-deadlock-in-checkout\n\nFix a deadlock in `ConnectionPool#checkout`",
+            "tree": {
+                "sha": "7939d5f2951a4f4e10df43cc561a498e5d915e70",
+                "url": "https://api.github.com/repos/rails/rails/git/trees/7939d5f2951a4f4e10df43cc561a498e5d915e70"
+            },
+            "url": "https://api.github.com/repos/rails/rails/git/commits/d2b739c3c89034cd48c5b4eaf60cc4b37a89f887",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmf8s5CRC1aQ7uu5UhlAAAjMUQAHiLvXkVQpZpjqwrVSZlf7oq\npOiu4cIK+prhM66ITOfoLaYqNjydXC1bkSFsMBQzWKpsbthxEQ4646C+vigzKNxf\nnQAXv7/FpCMLe8g0qo4y7W810hSYxjb2SE5wEtZ8wZKIAu+Mb2a7EsOOT6SaMCvg\nTOTufQFJQ1HG2o5Sw86vycJm3A3Sz5qT0kr5KnlpCg9UEnlK3oiSsasA85SVxlAr\nlsFZ1q6ct5r9Yy/kgaNkrW8Ldjv9RLOCCuRb4hv47+a+OcbxBZSUGXQp9BwPRy3n\nCDMOdKpptssgpaOZpCPsj98AOxtadnBfgMOEHyelLOsBeISZgd3FRX3Q3lo9BQAE\nr7ncEbt1Mfl4U3b2mXQ1H4jjYppSR7ne3gLP6ktWbIMcc8T1MVDipUdiQQbPGjQI\nrFDvjp9tkb9we3i1+mzofRSAAlEx1MxJTaYZxFwhEETnq675n21igoSpms9yo6zj\nQXdLMaKFHt6MVR0za4xk9pWtgyNO1F9pnHAoFIrASVLqUKtNfWuKNPXT1hFwiorT\nmJQfkEsfOEZSPvx1ju45hFIXhc0CcvjB5SZLAXZ2PJ1HvFHEhjh765/T4x/1h5pk\n2qipaa8K+TYhgRT8WNXPzRX3LD8DNrActEWtcOa75hRKeLW41kHqKtz8eYQTaibS\nzrPZcdYLFR+M+n0//OWa\n=Kf1v\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 7939d5f2951a4f4e10df43cc561a498e5d915e70\nparent 21280a16164d10cdcc02356787fca46940f27c16\nparent 803c78d9f4252c7d4d7a9313fde000b121bbc381\nauthor Jean Boussier <jean.boussier@gmail.com> 1719651129 +0200\ncommitter GitHub <noreply@github.com> 1719651129 +0200\n\nMerge pull request #52235 from fatkodima/fix-deadlock-in-checkout\n\nFix a deadlock in `ConnectionPool#checkout`"
+            }
+        },
+        "url": "https://api.github.com/repos/rails/rails/commits/d2b739c3c89034cd48c5b4eaf60cc4b37a89f887",
+        "html_url": "https://github.com/rails/rails/commit/d2b739c3c89034cd48c5b4eaf60cc4b37a89f887",
+        "comments_url": "https://api.github.com/repos/rails/rails/commits/d2b739c3c89034cd48c5b4eaf60cc4b37a89f887/comments",
+        "author": {
+            "login": "byroot",
+            "id": 44640,
+            "node_id": "MDQ6VXNlcjQ0NjQw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/44640?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/byroot",
+            "html_url": "https://github.com/byroot",
+            "followers_url": "https://api.github.com/users/byroot/followers",
+            "following_url": "https://api.github.com/users/byroot/following{/other_user}",
+            "gists_url": "https://api.github.com/users/byroot/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/byroot/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/byroot/subscriptions",
+            "organizations_url": "https://api.github.com/users/byroot/orgs",
+            "repos_url": "https://api.github.com/users/byroot/repos",
+            "events_url": "https://api.github.com/users/byroot/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/byroot/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "21280a16164d10cdcc02356787fca46940f27c16",
+                "url": "https://api.github.com/repos/rails/rails/commits/21280a16164d10cdcc02356787fca46940f27c16",
+                "html_url": "https://github.com/rails/rails/commit/21280a16164d10cdcc02356787fca46940f27c16"
+            },
+            {
+                "sha": "803c78d9f4252c7d4d7a9313fde000b121bbc381",
+                "url": "https://api.github.com/repos/rails/rails/commits/803c78d9f4252c7d4d7a9313fde000b121bbc381",
+                "html_url": "https://github.com/rails/rails/commit/803c78d9f4252c7d4d7a9313fde000b121bbc381"
+            }
+        ]
+    },
+    {
+        "sha": "21280a16164d10cdcc02356787fca46940f27c16",
+        "node_id": "C_kwDNIULaACgyMTI4MGExNjE2NGQxMGNkY2MwMjM1Njc4N2ZjYTQ2OTQwZjI3YzE2",
+        "commit": {
+            "author": {
+                "name": "Petrik de Heus",
+                "email": "petrik@deheus.net",
+                "date": "2024-06-29T06:52:05Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2024-06-29T06:52:05Z"
+            },
+            "message": "Merge pull request #52231 from JuanVqz/railties/rails-stats-changelog\n\nAdd `bin/rake stats` deprecation changelog [ci skip]",
+            "tree": {
+                "sha": "254a0c06c1e1ec64104c9831dc3f1e57401a1dca",
+                "url": "https://api.github.com/repos/rails/rails/git/trees/254a0c06c1e1ec64104c9831dc3f1e57401a1dca"
+            },
+            "url": "https://api.github.com/repos/rails/rails/git/commits/21280a16164d10cdcc02356787fca46940f27c16",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmf68VCRC1aQ7uu5UhlAAAUCIQAIbp+Jm7MiYZFWxtXJK+G4Cm\njGuRG275N3jUloxcNS9HuizBUhQtYQ1NbE7Hh6XuUJ777d5lRk90rIQxtnhPTvVi\nQD/TBtIrTbxj8/WbuE6pSqfctZcxyFPt/+ZlpHpgLNfCSl2laZpSUYYJ+d7/kbQk\nk32p1mZb591uTXjWs0yptPw4WAETZ5LutqyV/WxfH/GUZlvCsCDWfXuGzEo8zLK1\n+TYgn5AaqblMV2yWLZlf2DeKte6cKSqpugvqQrN/spxen9/9tPEFxHiWIDp9RRul\nFX/clfS2LfjoAsE3AUZRLf0foClnnYXrDwXSk2t3WhvKFbjejSgDfJSB4RZ5u9BU\nLdeDKTY1WJdoTa9c1SLgB0fVQHwaWaafjsnR8dCyn4VkG8gr9qmCzvISs1D0EQH7\nopnH5zoLdhQOKMINt/TMS9bt0mNK0+iNo21EmFTRVmP5OxkfrFQ0hg8Q2BT+9zwF\nvw6CMbgI2NihLkg858RixkAMvdMIB/qDh/FfL+CptLGgYN6kEVBzm9lHfsYHh52X\n2nBDUXX55GuC5uc3DkvGFARywal9rBcRZlH93Vg+1iYlQ8+gZuG1eLiy5BqtX4Au\nJldFldAzS1vDwK8xDZQdm5wX9GgTr3nb1V2hlszS0nDK8g26YSVbob97W9qoMeMn\nDPuy6djJlQJ+urKvE1QH\n=IR/e\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 254a0c06c1e1ec64104c9831dc3f1e57401a1dca\nparent b9d6759401c3d50a51e0a7650cb2331f4218d11f\nparent 3d737cd8ef0b4cfd89df7cafc17315fe1aa88319\nauthor Petrik de Heus <petrik@deheus.net> 1719643925 +0200\ncommitter GitHub <noreply@github.com> 1719643925 +0200\n\nMerge pull request #52231 from JuanVqz/railties/rails-stats-changelog\n\nAdd `bin/rake stats` deprecation changelog [ci skip]"
+            }
+        },
+        "url": "https://api.github.com/repos/rails/rails/commits/21280a16164d10cdcc02356787fca46940f27c16",
+        "html_url": "https://github.com/rails/rails/commit/21280a16164d10cdcc02356787fca46940f27c16",
+        "comments_url": "https://api.github.com/repos/rails/rails/commits/21280a16164d10cdcc02356787fca46940f27c16/comments",
+        "author": {
+            "login": "p8",
+            "id": 28561,
+            "node_id": "MDQ6VXNlcjI4NTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/28561?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/p8",
+            "html_url": "https://github.com/p8",
+            "followers_url": "https://api.github.com/users/p8/followers",
+            "following_url": "https://api.github.com/users/p8/following{/other_user}",
+            "gists_url": "https://api.github.com/users/p8/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/p8/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/p8/subscriptions",
+            "organizations_url": "https://api.github.com/users/p8/orgs",
+            "repos_url": "https://api.github.com/users/p8/repos",
+            "events_url": "https://api.github.com/users/p8/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/p8/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "b9d6759401c3d50a51e0a7650cb2331f4218d11f",
+                "url": "https://api.github.com/repos/rails/rails/commits/b9d6759401c3d50a51e0a7650cb2331f4218d11f",
+                "html_url": "https://github.com/rails/rails/commit/b9d6759401c3d50a51e0a7650cb2331f4218d11f"
+            },
+            {
+                "sha": "3d737cd8ef0b4cfd89df7cafc17315fe1aa88319",
+                "url": "https://api.github.com/repos/rails/rails/commits/3d737cd8ef0b4cfd89df7cafc17315fe1aa88319",
+                "html_url": "https://github.com/rails/rails/commit/3d737cd8ef0b4cfd89df7cafc17315fe1aa88319"
+            }
+        ]
+    },
+    {
+        "sha": "803c78d9f4252c7d4d7a9313fde000b121bbc381",
+        "node_id": "C_kwDNIULaACg4MDNjNzhkOWY0MjUyYzdkNGQ3YTkzMTNmZGUwMDBiMTIxYmJjMzgx",
+        "commit": {
+            "author": {
+                "name": "fatkodima",
+                "email": "fatkodima123@gmail.com",
+                "date": "2024-06-28T23:35:16Z"
+            },
+            "committer": {
+                "name": "fatkodima",
+                "email": "fatkodima123@gmail.com",
+                "date": "2024-06-28T23:35:16Z"
+            },
+            "message": "Fix a deadlock in `ConnectionPool#checkout`",
+            "tree": {
+                "sha": "7a6b6fdff162dd0e073ac570af25f5b80446a8a9",
+                "url": "https://api.github.com/repos/rails/rails/git/trees/7a6b6fdff162dd0e073ac570af25f5b80446a8a9"
+            },
+            "url": "https://api.github.com/repos/rails/rails/git/commits/803c78d9f4252c7d4d7a9313fde000b121bbc381",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/rails/rails/commits/803c78d9f4252c7d4d7a9313fde000b121bbc381",
+        "html_url": "https://github.com/rails/rails/commit/803c78d9f4252c7d4d7a9313fde000b121bbc381",
+        "comments_url": "https://api.github.com/repos/rails/rails/commits/803c78d9f4252c7d4d7a9313fde000b121bbc381/comments",
+        "author": {
+            "login": "fatkodima",
+            "id": 5657035,
+            "node_id": "MDQ6VXNlcjU2NTcwMzU=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5657035?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fatkodima",
+            "html_url": "https://github.com/fatkodima",
+            "followers_url": "https://api.github.com/users/fatkodima/followers",
+            "following_url": "https://api.github.com/users/fatkodima/following{/other_user}",
+            "gists_url": "https://api.github.com/users/fatkodima/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/fatkodima/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/fatkodima/subscriptions",
+            "organizations_url": "https://api.github.com/users/fatkodima/orgs",
+            "repos_url": "https://api.github.com/users/fatkodima/repos",
+            "events_url": "https://api.github.com/users/fatkodima/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/fatkodima/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "fatkodima",
+            "id": 5657035,
+            "node_id": "MDQ6VXNlcjU2NTcwMzU=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5657035?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fatkodima",
+            "html_url": "https://github.com/fatkodima",
+            "followers_url": "https://api.github.com/users/fatkodima/followers",
+            "following_url": "https://api.github.com/users/fatkodima/following{/other_user}",
+            "gists_url": "https://api.github.com/users/fatkodima/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/fatkodima/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/fatkodima/subscriptions",
+            "organizations_url": "https://api.github.com/users/fatkodima/orgs",
+            "repos_url": "https://api.github.com/users/fatkodima/repos",
+            "events_url": "https://api.github.com/users/fatkodima/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/fatkodima/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "b9d6759401c3d50a51e0a7650cb2331f4218d11f",
+                "url": "https://api.github.com/repos/rails/rails/commits/b9d6759401c3d50a51e0a7650cb2331f4218d11f",
+                "html_url": "https://github.com/rails/rails/commit/b9d6759401c3d50a51e0a7650cb2331f4218d11f"
+            }
+        ]
+    },
+    {
+        "sha": "b9d6759401c3d50a51e0a7650cb2331f4218d11f",
+        "node_id": "C_kwDNIULaAChiOWQ2NzU5NDAxYzNkNTBhNTFlMGE3NjUwY2IyMzMxZjQyMThkMTFm",
+        "commit": {
+            "author": {
+                "name": "Xavier Noria",
+                "email": "fxn@hashref.com",
+                "date": "2024-06-28T16:32:42Z"
+            },
+            "committer": {
+                "name": "Xavier Noria",
+                "email": "fxn@hashref.com",
+                "date": "2024-06-28T16:35:13Z"
+            },
+            "message": "Style pass over active_record/associations/builder/association.rb\n\nI was reading this source code and made a few edits on passing to ensure\nstyle details agree within the file itself and Rails.\n\nThe addition of \"# noop\" makes the method body look similar to other\nanalogous ones in the same file (not shown in the diff).",
+            "tree": {
+                "sha": "9c6e714b3c7ba76f93ea99c445a7c6b0af0381f0",
+                "url": "https://api.github.com/repos/rails/rails/git/trees/9c6e714b3c7ba76f93ea99c445a7c6b0af0381f0"
+            },
+            "url": "https://api.github.com/repos/rails/rails/git/commits/b9d6759401c3d50a51e0a7650cb2331f4218d11f",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/rails/rails/commits/b9d6759401c3d50a51e0a7650cb2331f4218d11f",
+        "html_url": "https://github.com/rails/rails/commit/b9d6759401c3d50a51e0a7650cb2331f4218d11f",
+        "comments_url": "https://api.github.com/repos/rails/rails/commits/b9d6759401c3d50a51e0a7650cb2331f4218d11f/comments",
+        "author": {
+            "login": "fxn",
+            "id": 3387,
+            "node_id": "MDQ6VXNlcjMzODc=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3387?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fxn",
+            "html_url": "https://github.com/fxn",
+            "followers_url": "https://api.github.com/users/fxn/followers",
+            "following_url": "https://api.github.com/users/fxn/following{/other_user}",
+            "gists_url": "https://api.github.com/users/fxn/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/fxn/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/fxn/subscriptions",
+            "organizations_url": "https://api.github.com/users/fxn/orgs",
+            "repos_url": "https://api.github.com/users/fxn/repos",
+            "events_url": "https://api.github.com/users/fxn/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/fxn/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "fxn",
+            "id": 3387,
+            "node_id": "MDQ6VXNlcjMzODc=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3387?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fxn",
+            "html_url": "https://github.com/fxn",
+            "followers_url": "https://api.github.com/users/fxn/followers",
+            "following_url": "https://api.github.com/users/fxn/following{/other_user}",
+            "gists_url": "https://api.github.com/users/fxn/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/fxn/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/fxn/subscriptions",
+            "organizations_url": "https://api.github.com/users/fxn/orgs",
+            "repos_url": "https://api.github.com/users/fxn/repos",
+            "events_url": "https://api.github.com/users/fxn/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/fxn/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "f0f624bde4d89648c825719ac485c740a38126b7",
+                "url": "https://api.github.com/repos/rails/rails/commits/f0f624bde4d89648c825719ac485c740a38126b7",
+                "html_url": "https://github.com/rails/rails/commit/f0f624bde4d89648c825719ac485c740a38126b7"
+            }
+        ]
+    },
+    {
+        "sha": "3d737cd8ef0b4cfd89df7cafc17315fe1aa88319",
+        "node_id": "C_kwDNIULaACgzZDczN2NkOGVmMGI0Y2ZkODlkZjdjYWZjMTczMTVmZTFhYTg4MzE5",
+        "commit": {
+            "author": {
+                "name": "Juan V\u00e1squez",
+                "email": "juan@ombulabs.com",
+                "date": "2024-06-28T16:14:10Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2024-06-28T16:14:10Z"
+            },
+            "message": "Update CHANGELOG.md\n\nCo-authored-by: Petrik de Heus <petrik@deheus.net>",
+            "tree": {
+                "sha": "471bb898b7790a0a5305aaee4362fdb85b1c22af",
+                "url": "https://api.github.com/repos/rails/rails/git/trees/471bb898b7790a0a5305aaee4362fdb85b1c22af"
+            },
+            "url": "https://api.github.com/repos/rails/rails/git/commits/3d737cd8ef0b4cfd89df7cafc17315fe1aa88319",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmfuFSCRC1aQ7uu5UhlAAAxO4QAHds/Pbwq96VrIlNK1pJ8GA+\nr5Il0ST1BwKy+HxXNbgzuvi5NtlBnN3Kh1Vc/qZ1yUg1CXTzsGdzeTIqp+ErZR1Y\n5EfEGt5wvCa3bd9jGP2ynWoZ/r+qfbEU55hvGD59HZk48CGddcmMsd01wGNKAMC0\nUHAtkSF1ucRd4fbJ0jPrQSToV4aSsUVctGIkrYJ6TcCRDym4e/Mm1XY3kGXtN2qt\nReBqqY0eVR+H6nZ8IOX8tXsREbwEk0MO2Ir1uf1r6GqgXy3qNNtBYYlFH6ytRyFR\n6gZ2OatORa8Fqk84SeWdfQ5k3On7oeFM2ZdK1urDezL1dHmM6ab1kYaLz0ghRNBt\nTTbft4Qsc1tQPi3DFPAuvEss2N7RXANHz3M58DpMpXuEdBmIhzRgkKZYWEfiokWk\njzfj/D3vSPjfMxWT1ItSEG2NvtRc1ZyqBcAXLbIvBolpKDzVfMHnOPsy4/Ms20qE\nE16V+WnhflT27wJs3RTZ2ATrMx6W3a4CJqGzGMk60lPoPBBBFt0/RUMGnbt0GtjE\nFxrMbJRHr16J3UGA1hs9E740+Dq4uyFMHGuopG6voXAWm7hjO8HQNudTORAi2OmO\nkp1JCpn7W7vnZr0ihWCX6J93xmFu5kIDrnuB0aoAyLJkUcDqvMHTFPFXWrPDaJSE\nZIxqHLyBQCselzCpdSIZ\n=F0M5\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 471bb898b7790a0a5305aaee4362fdb85b1c22af\nparent 2f580264d5e568b0cc65e81af01e6bb75295e020\nauthor Juan V\u00e1squez <juan@ombulabs.com> 1719591250 -0600\ncommitter GitHub <noreply@github.com> 1719591250 -0600\n\nUpdate CHANGELOG.md\n\nCo-authored-by: Petrik de Heus <petrik@deheus.net>"
+            }
+        },
+        "url": "https://api.github.com/repos/rails/rails/commits/3d737cd8ef0b4cfd89df7cafc17315fe1aa88319",
+        "html_url": "https://github.com/rails/rails/commit/3d737cd8ef0b4cfd89df7cafc17315fe1aa88319",
+        "comments_url": "https://api.github.com/repos/rails/rails/commits/3d737cd8ef0b4cfd89df7cafc17315fe1aa88319/comments",
+        "author": {
+            "login": "JuanVqz",
+            "id": 7331511,
+            "node_id": "MDQ6VXNlcjczMzE1MTE=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7331511?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/JuanVqz",
+            "html_url": "https://github.com/JuanVqz",
+            "followers_url": "https://api.github.com/users/JuanVqz/followers",
+            "following_url": "https://api.github.com/users/JuanVqz/following{/other_user}",
+            "gists_url": "https://api.github.com/users/JuanVqz/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/JuanVqz/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/JuanVqz/subscriptions",
+            "organizations_url": "https://api.github.com/users/JuanVqz/orgs",
+            "repos_url": "https://api.github.com/users/JuanVqz/repos",
+            "events_url": "https://api.github.com/users/JuanVqz/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/JuanVqz/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "2f580264d5e568b0cc65e81af01e6bb75295e020",
+                "url": "https://api.github.com/repos/rails/rails/commits/2f580264d5e568b0cc65e81af01e6bb75295e020",
+                "html_url": "https://github.com/rails/rails/commit/2f580264d5e568b0cc65e81af01e6bb75295e020"
+            }
+        ]
+    },
+    {
+        "sha": "f0f624bde4d89648c825719ac485c740a38126b7",
+        "node_id": "C_kwDNIULaAChmMGY2MjRiZGU0ZDg5NjQ4YzgyNTcxOWFjNDg1Yzc0MGEzODEyNmI3",
+        "commit": {
+            "author": {
+                "name": "bhumi1102",
+                "email": "bhumi1102@gmail.com",
+                "date": "2024-06-28T15:49:36Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2024-06-28T15:49:36Z"
+            },
+            "message": "[RF-DOCS] Action View Form Helpers Guide [ci-skip] (#51936)\n\nIn addition to updating the code examples and editing text for clarity and flow, here some more details on some of the changes:\r\n\r\n- [X] Do we still need an HTML5 warning at the end of the 1st section? It's pretty standard these days.\r\n--> agree, removed.\r\n- [X] Not sure the output of `_form_with model: @article`_ is 100% correct, might need to double check that.\r\n--> yes. updated this example and got the HTML output from my \"guides playground\" rails app.\r\n- [X] When we mention `record.persisted?` in record identification, could be a good plug to link to the Active Model guide on that.\r\n--> Hm...there is no direction mention, other than this https://guides.rubyonrails.org/active_model_basics.html#conversion\r\n- [X] Similar to STI, link to the guide / reference on it.\r\n- [X] Time Zone and Country Select should likely be broken into separate sub-sections (I don't mind still mentioning country select)\r\n- [X]  Would the file upload example would be better with a CSV for local processing, rather than showing saving to local disk? (which is probably a very uncommon usage?)\r\n- [X] The _labeled_form_with_ example could likely be simplified with `_**options_` being all that it takes, instead of explicitly showing all possible kwargs.\r\n- [X]  It may be better to show \"complex forms\" (section 10) right after the parameters (section 8), moving \"forms to external resources\" down... just because complex forms require exactly the fields_for incantation that was detailed further under the parameters section, so it seems a better continuation. (or potentially even reversed? complex forms then params? not sure)\r\n- [X] Under \"complex forms\", adding fields on the flow could be slightly expanded, it feels very \"go figure\". \r\n--> Yeah, not sure what to do about this one. Was thinking about removing it as there is not built-in support to showcase.\r\n\r\n---------\r\n\r\nCo-authored-by: Ridhwana <Ridhwana.Khan16@gmail.com>\r\nCo-authored-by: Petrik de Heus <petrik@deheus.net>\r\nCo-authored-by: Amanda Perino <58528404+AmandaPerino@users.noreply.github.com>\r\nCo-authored-by: Karl Lingiah <karl@superchilled.co.uk>",
+            "tree": {
+                "sha": "6fc0dfe2ff3c914e5c444648b044e76b8c2cb0ac",
+                "url": "https://api.github.com/repos/rails/rails/git/trees/6fc0dfe2ff3c914e5c444648b044e76b8c2cb0ac"
+            },
+            "url": "https://api.github.com/repos/rails/rails/git/commits/f0f624bde4d89648c825719ac485c740a38126b7",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmftuQCRC1aQ7uu5UhlAAAtOkQADthnO8d/SE79tPEaX5pblio\nR3mw7mWs9/TUqnvPDKTDJ51qaMLguqU7+zELkPH0pf5mb2Ex/4LBVS55kmFJcGjh\nOYUlCYbPNwbY7vofSRYJyr40FDSmZLv5NPYUlPCitsnH4swT/mYIntAkEdPdHHY0\n+ta497tFwnO8VHNQQOp2v90GdrUfO/B1eze0OgOZ89gu4kWJ5x8+0/umybq5JjIZ\ny0ueO5lBASEX5vtho8W5fT6GSylzZJt77/Xr6gOURVA7fHjGZY07LFN2KcGz7b1w\nF5KUoXNCoHMqh0uWrLmhHmo3fbu4uLnSXqOTcGrDIbKhKd8z0wsdKa+u9xsqI1bb\ndgY3VcMDtgUTCq12Qtuqv5MAZTwKOOcnlHdzoTNa1pp71AwiEuptUDjxrjXJ+V2+\npbrzaBr8VJhHNpP3FI7P534KMsby02fnt6PAOl1v4K/vfVUq4mTXX370S3w2n+GG\nachKTsveK7X3SgO8srFEmIBmNExQIykbAOA07qKaUZS6oCr9CQa1UNrnDfMSnadt\nD+N5rxz1PLhuBZisf9hImmqjEaeu+6+fj/AzNAR0bG5XbR23f3aZP1ygYcLKXVDu\nJ/RXpbV1z2yZSLa3f5m4TfARDWZ7xM1wZ3VJExdmisD02yIrQAcs5pSARRUuZ7/R\nUIqP+PXk/ip+n1RSPhM+\n=r7dT\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 6fc0dfe2ff3c914e5c444648b044e76b8c2cb0ac\nparent 6045f257fbbff039edb2542c9859488cec0dcaa9\nauthor bhumi1102 <bhumi1102@gmail.com> 1719589776 -0500\ncommitter GitHub <noreply@github.com> 1719589776 +0200\n\n[RF-DOCS] Action View Form Helpers Guide [ci-skip] (#51936)\n\nIn addition to updating the code examples and editing text for clarity and flow, here some more details on some of the changes:\r\n\r\n- [X] Do we still need an HTML5 warning at the end of the 1st section? It's pretty standard these days.\r\n--> agree, removed.\r\n- [X] Not sure the output of `_form_with model: @article`_ is 100% correct, might need to double check that.\r\n--> yes. updated this example and got the HTML output from my \"guides playground\" rails app.\r\n- [X] When we mention `record.persisted?` in record identification, could be a good plug to link to the Active Model guide on that.\r\n--> Hm...there is no direction mention, other than this https://guides.rubyonrails.org/active_model_basics.html#conversion\r\n- [X] Similar to STI, link to the guide / reference on it.\r\n- [X] Time Zone and Country Select should likely be broken into separate sub-sections (I don't mind still mentioning country select)\r\n- [X]  Would the file upload example would be better with a CSV for local processing, rather than showing saving to local disk? (which is probably a very uncommon usage?)\r\n- [X] The _labeled_form_with_ example could likely be simplified with `_**options_` being all that it takes, instead of explicitly showing all possible kwargs.\r\n- [X]  It may be better to show \"complex forms\" (section 10) right after the parameters (section 8), moving \"forms to external resources\" down... just because complex forms require exactly the fields_for incantation that was detailed further under the parameters section, so it seems a better continuation. (or potentially even reversed? complex forms then params? not sure)\r\n- [X] Under \"complex forms\", adding fields on the flow could be slightly expanded, it feels very \"go figure\". \r\n--> Yeah, not sure what to do about this one. Was thinking about removing it as there is not built-in support to showcase.\r\n\r\n---------\r\n\r\nCo-authored-by: Ridhwana <Ridhwana.Khan16@gmail.com>\r\nCo-authored-by: Petrik de Heus <petrik@deheus.net>\r\nCo-authored-by: Amanda Perino <58528404+AmandaPerino@users.noreply.github.com>\r\nCo-authored-by: Karl Lingiah <karl@superchilled.co.uk>"
+            }
+        },
+        "url": "https://api.github.com/repos/rails/rails/commits/f0f624bde4d89648c825719ac485c740a38126b7",
+        "html_url": "https://github.com/rails/rails/commit/f0f624bde4d89648c825719ac485c740a38126b7",
+        "comments_url": "https://api.github.com/repos/rails/rails/commits/f0f624bde4d89648c825719ac485c740a38126b7/comments",
+        "author": {
+            "login": "bhumi1102",
+            "id": 1966473,
+            "node_id": "MDQ6VXNlcjE5NjY0NzM=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1966473?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/bhumi1102",
+            "html_url": "https://github.com/bhumi1102",
+            "followers_url": "https://api.github.com/users/bhumi1102/followers",
+            "following_url": "https://api.github.com/users/bhumi1102/following{/other_user}",
+            "gists_url": "https://api.github.com/users/bhumi1102/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/bhumi1102/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/bhumi1102/subscriptions",
+            "organizations_url": "https://api.github.com/users/bhumi1102/orgs",
+            "repos_url": "https://api.github.com/users/bhumi1102/repos",
+            "events_url": "https://api.github.com/users/bhumi1102/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/bhumi1102/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "6045f257fbbff039edb2542c9859488cec0dcaa9",
+                "url": "https://api.github.com/repos/rails/rails/commits/6045f257fbbff039edb2542c9859488cec0dcaa9",
+                "html_url": "https://github.com/rails/rails/commit/6045f257fbbff039edb2542c9859488cec0dcaa9"
+            }
+        ]
+    },
+    {
+        "sha": "2f580264d5e568b0cc65e81af01e6bb75295e020",
+        "node_id": "C_kwDNIULaACgyZjU4MDI2NGQ1ZTU2OGIwY2M2NWU4MWFmMDFlNmJiNzUyOTVlMDIw",
+        "commit": {
+            "author": {
+                "name": "Juan Vasquez",
+                "email": "juan@ombulabs.com",
+                "date": "2024-06-28T13:55:44Z"
+            },
+            "committer": {
+                "name": "Juan Vasquez",
+                "email": "juan@ombulabs.com",
+                "date": "2024-06-28T13:55:44Z"
+            },
+            "message": "Add `bin/rake stats` deprecation changelog\n\nRelated #47713",
+            "tree": {
+                "sha": "c2c6e7e76e18230d3b8df3f836c86a05f41b6865",
+                "url": "https://api.github.com/repos/rails/rails/git/trees/c2c6e7e76e18230d3b8df3f836c86a05f41b6865"
+            },
+            "url": "https://api.github.com/repos/rails/rails/git/commits/2f580264d5e568b0cc65e81af01e6bb75295e020",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/rails/rails/commits/2f580264d5e568b0cc65e81af01e6bb75295e020",
+        "html_url": "https://github.com/rails/rails/commit/2f580264d5e568b0cc65e81af01e6bb75295e020",
+        "comments_url": "https://api.github.com/repos/rails/rails/commits/2f580264d5e568b0cc65e81af01e6bb75295e020/comments",
+        "author": {
+            "login": "JuanVqz",
+            "id": 7331511,
+            "node_id": "MDQ6VXNlcjczMzE1MTE=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7331511?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/JuanVqz",
+            "html_url": "https://github.com/JuanVqz",
+            "followers_url": "https://api.github.com/users/JuanVqz/followers",
+            "following_url": "https://api.github.com/users/JuanVqz/following{/other_user}",
+            "gists_url": "https://api.github.com/users/JuanVqz/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/JuanVqz/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/JuanVqz/subscriptions",
+            "organizations_url": "https://api.github.com/users/JuanVqz/orgs",
+            "repos_url": "https://api.github.com/users/JuanVqz/repos",
+            "events_url": "https://api.github.com/users/JuanVqz/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/JuanVqz/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "JuanVqz",
+            "id": 7331511,
+            "node_id": "MDQ6VXNlcjczMzE1MTE=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7331511?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/JuanVqz",
+            "html_url": "https://github.com/JuanVqz",
+            "followers_url": "https://api.github.com/users/JuanVqz/followers",
+            "following_url": "https://api.github.com/users/JuanVqz/following{/other_user}",
+            "gists_url": "https://api.github.com/users/JuanVqz/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/JuanVqz/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/JuanVqz/subscriptions",
+            "organizations_url": "https://api.github.com/users/JuanVqz/orgs",
+            "repos_url": "https://api.github.com/users/JuanVqz/repos",
+            "events_url": "https://api.github.com/users/JuanVqz/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/JuanVqz/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "6045f257fbbff039edb2542c9859488cec0dcaa9",
+                "url": "https://api.github.com/repos/rails/rails/commits/6045f257fbbff039edb2542c9859488cec0dcaa9",
+                "html_url": "https://github.com/rails/rails/commit/6045f257fbbff039edb2542c9859488cec0dcaa9"
+            }
+        ]
+    }
+]
