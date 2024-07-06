@@ -19,8 +19,15 @@ if __name__ == "__main__":
         data_json.sort(key=lambda x: x['commit']['author']['date'],
                        reverse=True)
 
-        for i in range(0, 10):
-            json_item = data_json[i]
-            sha = json_item['sha']
-            author = json_item['commit']['author']['name']
-            print(f'{sha}: {author}')
+        if len(data_json) >= 10:
+            for i in range(0, 10):
+                json_item = data_json[i]
+                sha = json_item['sha']
+                author = json_item['commit']['author']['name']
+                print(f'{sha}: {author}')
+        else:
+            for i in range(0, len(data_json)):
+                json_item = data_json[i]
+                sha = json_item['sha']
+                author = json_item['commit']['author']['name']
+                print(f'{sha}: {author}')
