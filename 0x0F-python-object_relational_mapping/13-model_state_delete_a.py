@@ -24,7 +24,14 @@ if __name__ == "__main__":
     Session = sessionmaker(bind=engine)
     session = Session()
 
-    for state in session.query(State):
-        if "a" in state.name:
+    try:
+        states_to_delete = session.query(State).filter(
+            State.name.contains('a')).all()
+        for state in states_to_delete:
             session.delete(state)
-    session.commit()
+        session.commit()
+    except e:
+        session.rollback()
+        raise
+    finally:
+        session.close()
